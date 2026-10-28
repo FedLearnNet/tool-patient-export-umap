@@ -148,8 +148,8 @@ config:
       tabularSchema: null
 
 info:
-  name: tool-patient-export-umap
-  slug: tool-patient-export-umap
+  name: patient-export-umap
+  slug: patient-export-umap
   type: EXPORT
   sourceUrl: https://github.com/FedLearnNet/tool-patient-export-umap
   shortDescription: Embeds cohort patient exports with UMAP and produces an interactive plot, embedding coordinates, and a feature report.

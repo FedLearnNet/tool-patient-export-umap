@@ -1,4 +1,4 @@
-# tool-patient-export-umap
+# patient-export-umap
 
 Embeds cohort patient exports with UMAP and produces an interactive plot, embedding coordinates, and a feature report.
 
