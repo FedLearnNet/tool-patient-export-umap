@@ -1,0 +1,156 @@
+config:
+  hyperparams:
+    - name: n_neighbors
+      description: Size of the local neighbourhood UMAP looks at. Small values emphasise local structure, large values the global picture. Capped at the number of patients minus one.
+      type: INTEGER
+      default: "15"
+      options: []
+      minValue: 2.0
+      maxValue: 200.0
+      pattern: null
+    - name: min_dist
+      description: Minimum distance between embedded points. Small values give tighter clusters.
+      type: FLOAT
+      default: "0.1"
+      options: []
+      minValue: 0.0
+      maxValue: 1.0
+      pattern: null
+    - name: metric
+      description: Distance metric in feature space.
+      type: CATEGORICAL
+      default: euclidean
+      options: [euclidean, manhattan, cosine, correlation, chebyshev]
+      minValue: null
+      maxValue: null
+      pattern: null
+    - name: random_state
+      description: Seed for a reproducible embedding. A negative value gives a faster, non-deterministic run.
+      type: INTEGER
+      default: "42"
+      options: []
+      minValue: -1.0
+      maxValue: 2147483647.0
+      pattern: null
+    - name: aggregation
+      description: Value used when a patient has several values for one feature (e.g. one per visit). last/first go by visit timestamp; mean averages numeric values.
+      type: CATEGORICAL
+      default: last
+      options: [last, first, mean]
+      minValue: null
+      maxValue: null
+      pattern: null
+    - name: min_feature_coverage
+      description: Share of patients that need a value for a feature to be used. Missing numeric values are imputed with the median.
+      type: FLOAT
+      default: "0.5"
+      options: []
+      minValue: 0.0
+      maxValue: 1.0
+      pattern: null
+    - name: include_categorical
+      description: One-hot encode non-numeric features instead of dropping them.
+      type: BOOLEAN
+      default: "true"
+      options: []
+      minValue: null
+      maxValue: null
+      pattern: null
+    - name: max_categories
+      description: Categorical features with more distinct values than this are dropped.
+      type: INTEGER
+      default: "20"
+      options: []
+      minValue: 2.0
+      maxValue: 500.0
+      pattern: null
+    - name: scale
+      description: Standardise every feature to zero mean and unit variance before embedding.
+      type: BOOLEAN
+      default: "true"
+      options: []
+      minValue: null
+      maxValue: null
+      pattern: null
+    - name: color_by
+      description: Feature name to colour the points by (e.g. a diagnosis or age). Leave empty for no colouring.
+      type: STRING
+      default: ""
+      options: []
+      minValue: null
+      maxValue: null
+      pattern: null
+    - name: exclude_color_feature
+      description: Leave the color_by feature out of the embedding, so the plot shows whether the other features separate it.
+      type: BOOLEAN
+      default: "true"
+      options: []
+      minValue: null
+      maxValue: null
+      pattern: null
+  input:
+    - name: input
+      description: Patient data export in long format (patientId, name or ontologyId/datatypeId, value, visit columns). A table with one row per patient is accepted as well.
+      type: CSV
+      required: true
+      delimiter: ','
+      hasHeader: true
+      shape: null
+      minValue: null
+      maxValue: null
+      mode: null
+      tabularSchema: null
+  output:
+    - name: plot
+      description: Interactive UMAP scatter plot, one point per patient.
+      type: HTML
+      required: false
+      delimiter: null
+      hasHeader: null
+      shape: null
+      minValue: null
+      maxValue: null
+      mode: null
+      tabularSchema: null
+    - name: embedding
+      description: UMAP coordinates per patient (patientId, umap_1, umap_2 and the color_by feature if set).
+      type: CSV
+      required: false
+      delimiter: ','
+      hasHeader: true
+      shape: null
+      minValue: null
+      maxValue: null
+      mode: null
+      tabularSchema:
+        allowOnlyNumbers: null
+        columns: null
+        maxColumns: null
+        maxRows: null
+        minColumns: null
+        minRows: null
+        nullPolicy: null
+        prohibitedNulls: null
+        requiredColumns:
+          - patientId
+          - umap_1
+          - umap_2
+    - name: feature_report
+      description: Every exported feature with its type, coverage and whether it was used.
+      type: CSV
+      required: false
+      delimiter: ','
+      hasHeader: true
+      shape: null
+      minValue: null
+      maxValue: null
+      mode: null
+      tabularSchema: null
+
+info:
+  name: tool-patient-export-umap
+  slug: tool-patient-export-umap
+  type: EXPORT
+  sourceUrl: https://github.com/FedLearnNet/tool-patient-export-umap
+  shortDescription: Embeds cohort patient exports with UMAP and produces an interactive plot, embedding coordinates, and a feature report.
+  longDescription: null

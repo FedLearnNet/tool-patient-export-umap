@@ -1,0 +1,16 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.idea/
+.vscode/
+.pytest_cache/
+output/
+*.html
+!data/*.html
+
+# Local configuration
+.env
+.env.*
+!.env.example

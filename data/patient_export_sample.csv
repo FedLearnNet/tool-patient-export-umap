@@ -1,0 +1,827 @@
+id,patientId,name,value,visitId,importSchemaGroupId,visitTimestamp,visitTimestampFormat
+1,1,age,28,1,1,2026-03-11 09:30:00,yyyy-MM-dd HH:mm:ss
+2,1,bmi,23.1,1,1,2026-03-11 09:30:00,yyyy-MM-dd HH:mm:ss
+3,1,hba1c,7.69,1,1,2026-03-11 09:30:00,yyyy-MM-dd HH:mm:ss
+4,1,systolic_bp,111,1,1,2026-03-11 09:30:00,yyyy-MM-dd HH:mm:ss
+5,1,sex,female,1,1,2026-03-11 09:30:00,yyyy-MM-dd HH:mm:ss
+6,1,insulin_therapy,true,1,1,2026-03-11 09:30:00,yyyy-MM-dd HH:mm:ss
+7,1,diagnosis,type 1,1,1,2026-03-11 09:30:00,yyyy-MM-dd HH:mm:ss
+8,1,age,28,2,1,2026-04-11 09:30:00,yyyy-MM-dd HH:mm:ss
+9,1,bmi,25.2,2,1,2026-04-11 09:30:00,yyyy-MM-dd HH:mm:ss
+10,1,hba1c,7.7,2,1,2026-04-11 09:30:00,yyyy-MM-dd HH:mm:ss
+11,1,systolic_bp,113,2,1,2026-04-11 09:30:00,yyyy-MM-dd HH:mm:ss
+12,1,sex,female,2,1,2026-04-11 09:30:00,yyyy-MM-dd HH:mm:ss
+13,1,insulin_therapy,true,2,1,2026-04-11 09:30:00,yyyy-MM-dd HH:mm:ss
+14,1,diagnosis,type 1,2,1,2026-04-11 09:30:00,yyyy-MM-dd HH:mm:ss
+15,2,age,30,1,1,2026-03-12 09:30:00,yyyy-MM-dd HH:mm:ss
+16,2,bmi,22.7,1,1,2026-03-12 09:30:00,yyyy-MM-dd HH:mm:ss
+17,2,hba1c,7.43,1,1,2026-03-12 09:30:00,yyyy-MM-dd HH:mm:ss
+18,2,systolic_bp,118,1,1,2026-03-12 09:30:00,yyyy-MM-dd HH:mm:ss
+19,2,sex,male,1,1,2026-03-12 09:30:00,yyyy-MM-dd HH:mm:ss
+20,2,insulin_therapy,true,1,1,2026-03-12 09:30:00,yyyy-MM-dd HH:mm:ss
+21,2,diagnosis,type 1,1,1,2026-03-12 09:30:00,yyyy-MM-dd HH:mm:ss
+22,2,age,26,2,1,2026-04-12 09:30:00,yyyy-MM-dd HH:mm:ss
+23,2,bmi,18.7,2,1,2026-04-12 09:30:00,yyyy-MM-dd HH:mm:ss
+24,2,hba1c,7.38,2,1,2026-04-12 09:30:00,yyyy-MM-dd HH:mm:ss
+25,2,systolic_bp,103,2,1,2026-04-12 09:30:00,yyyy-MM-dd HH:mm:ss
+26,2,sex,male,2,1,2026-04-12 09:30:00,yyyy-MM-dd HH:mm:ss
+27,2,insulin_therapy,true,2,1,2026-04-12 09:30:00,yyyy-MM-dd HH:mm:ss
+28,2,diagnosis,type 1,2,1,2026-04-12 09:30:00,yyyy-MM-dd HH:mm:ss
+29,3,age,22,1,1,2026-03-13 09:30:00,yyyy-MM-dd HH:mm:ss
+30,3,bmi,23.0,1,1,2026-03-13 09:30:00,yyyy-MM-dd HH:mm:ss
+31,3,hba1c,7.86,1,1,2026-03-13 09:30:00,yyyy-MM-dd HH:mm:ss
+32,3,systolic_bp,117,1,1,2026-03-13 09:30:00,yyyy-MM-dd HH:mm:ss
+33,3,sex,male,1,1,2026-03-13 09:30:00,yyyy-MM-dd HH:mm:ss
+34,3,insulin_therapy,true,1,1,2026-03-13 09:30:00,yyyy-MM-dd HH:mm:ss
+35,3,diagnosis,type 1,1,1,2026-03-13 09:30:00,yyyy-MM-dd HH:mm:ss
+36,3,age,28,2,1,2026-04-13 09:30:00,yyyy-MM-dd HH:mm:ss
+37,3,bmi,22.7,2,1,2026-04-13 09:30:00,yyyy-MM-dd HH:mm:ss
+38,3,hba1c,7.29,2,1,2026-04-13 09:30:00,yyyy-MM-dd HH:mm:ss
+39,3,systolic_bp,114,2,1,2026-04-13 09:30:00,yyyy-MM-dd HH:mm:ss
+40,3,sex,female,2,1,2026-04-13 09:30:00,yyyy-MM-dd HH:mm:ss
+41,3,insulin_therapy,true,2,1,2026-04-13 09:30:00,yyyy-MM-dd HH:mm:ss
+42,3,diagnosis,type 1,2,1,2026-04-13 09:30:00,yyyy-MM-dd HH:mm:ss
+43,4,age,24,1,1,2026-03-14 09:30:00,yyyy-MM-dd HH:mm:ss
+44,4,bmi,24.6,1,1,2026-03-14 09:30:00,yyyy-MM-dd HH:mm:ss
+45,4,hba1c,7.48,1,1,2026-03-14 09:30:00,yyyy-MM-dd HH:mm:ss
+46,4,systolic_bp,118,1,1,2026-03-14 09:30:00,yyyy-MM-dd HH:mm:ss
+47,4,sex,male,1,1,2026-03-14 09:30:00,yyyy-MM-dd HH:mm:ss
+48,4,insulin_therapy,true,1,1,2026-03-14 09:30:00,yyyy-MM-dd HH:mm:ss
+49,4,diagnosis,type 1,1,1,2026-03-14 09:30:00,yyyy-MM-dd HH:mm:ss
+50,4,age,27,2,1,2026-04-14 09:30:00,yyyy-MM-dd HH:mm:ss
+51,4,bmi,22.7,2,1,2026-04-14 09:30:00,yyyy-MM-dd HH:mm:ss
+52,4,hba1c,7.93,2,1,2026-04-14 09:30:00,yyyy-MM-dd HH:mm:ss
+53,4,systolic_bp,108,2,1,2026-04-14 09:30:00,yyyy-MM-dd HH:mm:ss
+54,4,sex,male,2,1,2026-04-14 09:30:00,yyyy-MM-dd HH:mm:ss
+55,4,insulin_therapy,true,2,1,2026-04-14 09:30:00,yyyy-MM-dd HH:mm:ss
+56,4,diagnosis,type 1,2,1,2026-04-14 09:30:00,yyyy-MM-dd HH:mm:ss
+57,5,age,35,1,1,2026-03-15 09:30:00,yyyy-MM-dd HH:mm:ss
+58,5,bmi,19.4,1,1,2026-03-15 09:30:00,yyyy-MM-dd HH:mm:ss
+59,5,hba1c,8.14,1,1,2026-03-15 09:30:00,yyyy-MM-dd HH:mm:ss
+60,5,systolic_bp,119,1,1,2026-03-15 09:30:00,yyyy-MM-dd HH:mm:ss
+61,5,sex,male,1,1,2026-03-15 09:30:00,yyyy-MM-dd HH:mm:ss
+62,5,insulin_therapy,true,1,1,2026-03-15 09:30:00,yyyy-MM-dd HH:mm:ss
+63,5,diagnosis,type 1,1,1,2026-03-15 09:30:00,yyyy-MM-dd HH:mm:ss
+64,5,age,32,2,1,2026-04-15 09:30:00,yyyy-MM-dd HH:mm:ss
+65,5,bmi,20.1,2,1,2026-04-15 09:30:00,yyyy-MM-dd HH:mm:ss
+66,5,hba1c,7.93,2,1,2026-04-15 09:30:00,yyyy-MM-dd HH:mm:ss
+67,5,systolic_bp,123,2,1,2026-04-15 09:30:00,yyyy-MM-dd HH:mm:ss
+68,5,sex,male,2,1,2026-04-15 09:30:00,yyyy-MM-dd HH:mm:ss
+69,5,insulin_therapy,true,2,1,2026-04-15 09:30:00,yyyy-MM-dd HH:mm:ss
+70,5,diagnosis,type 1,2,1,2026-04-15 09:30:00,yyyy-MM-dd HH:mm:ss
+71,6,age,31,1,1,2026-03-16 09:30:00,yyyy-MM-dd HH:mm:ss
+72,6,bmi,22.4,1,1,2026-03-16 09:30:00,yyyy-MM-dd HH:mm:ss
+73,6,hba1c,8.07,1,1,2026-03-16 09:30:00,yyyy-MM-dd HH:mm:ss
+74,6,systolic_bp,130,1,1,2026-03-16 09:30:00,yyyy-MM-dd HH:mm:ss
+75,6,sex,female,1,1,2026-03-16 09:30:00,yyyy-MM-dd HH:mm:ss
+76,6,insulin_therapy,true,1,1,2026-03-16 09:30:00,yyyy-MM-dd HH:mm:ss
+77,6,diagnosis,type 1,1,1,2026-03-16 09:30:00,yyyy-MM-dd HH:mm:ss
+78,6,age,26,2,1,2026-04-16 09:30:00,yyyy-MM-dd HH:mm:ss
+79,6,bmi,22.8,2,1,2026-04-16 09:30:00,yyyy-MM-dd HH:mm:ss
+80,6,hba1c,7.43,2,1,2026-04-16 09:30:00,yyyy-MM-dd HH:mm:ss
+81,6,systolic_bp,113,2,1,2026-04-16 09:30:00,yyyy-MM-dd HH:mm:ss
+82,6,sex,male,2,1,2026-04-16 09:30:00,yyyy-MM-dd HH:mm:ss
+83,6,insulin_therapy,true,2,1,2026-04-16 09:30:00,yyyy-MM-dd HH:mm:ss
+84,6,diagnosis,type 1,2,1,2026-04-16 09:30:00,yyyy-MM-dd HH:mm:ss
+85,7,age,32,1,1,2026-03-17 09:30:00,yyyy-MM-dd HH:mm:ss
+86,7,bmi,24.8,1,1,2026-03-17 09:30:00,yyyy-MM-dd HH:mm:ss
+87,7,hba1c,7.27,1,1,2026-03-17 09:30:00,yyyy-MM-dd HH:mm:ss
+88,7,systolic_bp,112,1,1,2026-03-17 09:30:00,yyyy-MM-dd HH:mm:ss
+89,7,sex,female,1,1,2026-03-17 09:30:00,yyyy-MM-dd HH:mm:ss
+90,7,insulin_therapy,true,1,1,2026-03-17 09:30:00,yyyy-MM-dd HH:mm:ss
+91,7,diagnosis,type 1,1,1,2026-03-17 09:30:00,yyyy-MM-dd HH:mm:ss
+92,7,age,26,2,1,2026-04-17 09:30:00,yyyy-MM-dd HH:mm:ss
+93,7,bmi,22.3,2,1,2026-04-17 09:30:00,yyyy-MM-dd HH:mm:ss
+94,7,hba1c,8.4,2,1,2026-04-17 09:30:00,yyyy-MM-dd HH:mm:ss
+95,7,systolic_bp,124,2,1,2026-04-17 09:30:00,yyyy-MM-dd HH:mm:ss
+96,7,sex,female,2,1,2026-04-17 09:30:00,yyyy-MM-dd HH:mm:ss
+97,7,insulin_therapy,true,2,1,2026-04-17 09:30:00,yyyy-MM-dd HH:mm:ss
+98,7,diagnosis,type 1,2,1,2026-04-17 09:30:00,yyyy-MM-dd HH:mm:ss
+99,8,age,26,1,1,2026-03-18 09:30:00,yyyy-MM-dd HH:mm:ss
+100,8,bmi,22.0,1,1,2026-03-18 09:30:00,yyyy-MM-dd HH:mm:ss
+101,8,hba1c,8.41,1,1,2026-03-18 09:30:00,yyyy-MM-dd HH:mm:ss
+102,8,systolic_bp,115,1,1,2026-03-18 09:30:00,yyyy-MM-dd HH:mm:ss
+103,8,sex,female,1,1,2026-03-18 09:30:00,yyyy-MM-dd HH:mm:ss
+104,8,insulin_therapy,true,1,1,2026-03-18 09:30:00,yyyy-MM-dd HH:mm:ss
+105,8,diagnosis,type 1,1,1,2026-03-18 09:30:00,yyyy-MM-dd HH:mm:ss
+106,8,age,27,2,1,2026-04-18 09:30:00,yyyy-MM-dd HH:mm:ss
+107,8,bmi,22.1,2,1,2026-04-18 09:30:00,yyyy-MM-dd HH:mm:ss
+108,8,hba1c,7.45,2,1,2026-04-18 09:30:00,yyyy-MM-dd HH:mm:ss
+109,8,systolic_bp,118,2,1,2026-04-18 09:30:00,yyyy-MM-dd HH:mm:ss
+110,8,sex,male,2,1,2026-04-18 09:30:00,yyyy-MM-dd HH:mm:ss
+111,8,insulin_therapy,true,2,1,2026-04-18 09:30:00,yyyy-MM-dd HH:mm:ss
+112,8,diagnosis,type 1,2,1,2026-04-18 09:30:00,yyyy-MM-dd HH:mm:ss
+113,9,age,34,1,1,2026-03-10 09:30:00,yyyy-MM-dd HH:mm:ss
+114,9,bmi,23.8,1,1,2026-03-10 09:30:00,yyyy-MM-dd HH:mm:ss
+115,9,hba1c,7.79,1,1,2026-03-10 09:30:00,yyyy-MM-dd HH:mm:ss
+116,9,systolic_bp,123,1,1,2026-03-10 09:30:00,yyyy-MM-dd HH:mm:ss
+117,9,sex,male,1,1,2026-03-10 09:30:00,yyyy-MM-dd HH:mm:ss
+118,9,insulin_therapy,true,1,1,2026-03-10 09:30:00,yyyy-MM-dd HH:mm:ss
+119,9,diagnosis,type 1,1,1,2026-03-10 09:30:00,yyyy-MM-dd HH:mm:ss
+120,9,age,28,2,1,2026-04-10 09:30:00,yyyy-MM-dd HH:mm:ss
+121,9,bmi,23.7,2,1,2026-04-10 09:30:00,yyyy-MM-dd HH:mm:ss
+122,9,hba1c,7.38,2,1,2026-04-10 09:30:00,yyyy-MM-dd HH:mm:ss
+123,9,sex,male,2,1,2026-04-10 09:30:00,yyyy-MM-dd HH:mm:ss
+124,9,insulin_therapy,true,2,1,2026-04-10 09:30:00,yyyy-MM-dd HH:mm:ss
+125,9,diagnosis,type 1,2,1,2026-04-10 09:30:00,yyyy-MM-dd HH:mm:ss
+126,10,age,18,1,1,2026-03-11 09:30:00,yyyy-MM-dd HH:mm:ss
+127,10,bmi,21.9,1,1,2026-03-11 09:30:00,yyyy-MM-dd HH:mm:ss
+128,10,hba1c,7.44,1,1,2026-03-11 09:30:00,yyyy-MM-dd HH:mm:ss
+129,10,systolic_bp,119,1,1,2026-03-11 09:30:00,yyyy-MM-dd HH:mm:ss
+130,10,sex,female,1,1,2026-03-11 09:30:00,yyyy-MM-dd HH:mm:ss
+131,10,insulin_therapy,true,1,1,2026-03-11 09:30:00,yyyy-MM-dd HH:mm:ss
+132,10,diagnosis,type 1,1,1,2026-03-11 09:30:00,yyyy-MM-dd HH:mm:ss
+133,10,age,25,2,1,2026-04-11 09:30:00,yyyy-MM-dd HH:mm:ss
+134,10,bmi,22.9,2,1,2026-04-11 09:30:00,yyyy-MM-dd HH:mm:ss
+135,10,hba1c,8.1,2,1,2026-04-11 09:30:00,yyyy-MM-dd HH:mm:ss
+136,10,systolic_bp,117,2,1,2026-04-11 09:30:00,yyyy-MM-dd HH:mm:ss
+137,10,sex,male,2,1,2026-04-11 09:30:00,yyyy-MM-dd HH:mm:ss
+138,10,insulin_therapy,true,2,1,2026-04-11 09:30:00,yyyy-MM-dd HH:mm:ss
+139,10,diagnosis,type 1,2,1,2026-04-11 09:30:00,yyyy-MM-dd HH:mm:ss
+140,11,age,32,1,1,2026-03-12 09:30:00,yyyy-MM-dd HH:mm:ss
+141,11,bmi,23.5,1,1,2026-03-12 09:30:00,yyyy-MM-dd HH:mm:ss
+142,11,hba1c,7.39,1,1,2026-03-12 09:30:00,yyyy-MM-dd HH:mm:ss
+143,11,systolic_bp,117,1,1,2026-03-12 09:30:00,yyyy-MM-dd HH:mm:ss
+144,11,sex,male,1,1,2026-03-12 09:30:00,yyyy-MM-dd HH:mm:ss
+145,11,insulin_therapy,true,1,1,2026-03-12 09:30:00,yyyy-MM-dd HH:mm:ss
+146,11,diagnosis,type 1,1,1,2026-03-12 09:30:00,yyyy-MM-dd HH:mm:ss
+147,11,age,29,2,1,2026-04-12 09:30:00,yyyy-MM-dd HH:mm:ss
+148,11,bmi,20.8,2,1,2026-04-12 09:30:00,yyyy-MM-dd HH:mm:ss
+149,11,hba1c,8.29,2,1,2026-04-12 09:30:00,yyyy-MM-dd HH:mm:ss
+150,11,systolic_bp,120,2,1,2026-04-12 09:30:00,yyyy-MM-dd HH:mm:ss
+151,11,sex,male,2,1,2026-04-12 09:30:00,yyyy-MM-dd HH:mm:ss
+152,11,insulin_therapy,true,2,1,2026-04-12 09:30:00,yyyy-MM-dd HH:mm:ss
+153,11,diagnosis,type 1,2,1,2026-04-12 09:30:00,yyyy-MM-dd HH:mm:ss
+154,12,age,25,1,1,2026-03-13 09:30:00,yyyy-MM-dd HH:mm:ss
+155,12,bmi,22.3,1,1,2026-03-13 09:30:00,yyyy-MM-dd HH:mm:ss
+156,12,hba1c,7.0,1,1,2026-03-13 09:30:00,yyyy-MM-dd HH:mm:ss
+157,12,systolic_bp,109,1,1,2026-03-13 09:30:00,yyyy-MM-dd HH:mm:ss
+158,12,sex,female,1,1,2026-03-13 09:30:00,yyyy-MM-dd HH:mm:ss
+159,12,insulin_therapy,true,1,1,2026-03-13 09:30:00,yyyy-MM-dd HH:mm:ss
+160,12,diagnosis,type 1,1,1,2026-03-13 09:30:00,yyyy-MM-dd HH:mm:ss
+161,12,age,32,2,1,2026-04-13 09:30:00,yyyy-MM-dd HH:mm:ss
+162,12,bmi,19.0,2,1,2026-04-13 09:30:00,yyyy-MM-dd HH:mm:ss
+163,12,hba1c,8.2,2,1,2026-04-13 09:30:00,yyyy-MM-dd HH:mm:ss
+164,12,systolic_bp,111,2,1,2026-04-13 09:30:00,yyyy-MM-dd HH:mm:ss
+165,12,sex,female,2,1,2026-04-13 09:30:00,yyyy-MM-dd HH:mm:ss
+166,12,insulin_therapy,true,2,1,2026-04-13 09:30:00,yyyy-MM-dd HH:mm:ss
+167,12,diagnosis,type 1,2,1,2026-04-13 09:30:00,yyyy-MM-dd HH:mm:ss
+168,13,age,29,1,1,2026-03-14 09:30:00,yyyy-MM-dd HH:mm:ss
+169,13,bmi,19.4,1,1,2026-03-14 09:30:00,yyyy-MM-dd HH:mm:ss
+170,13,hba1c,8.3,1,1,2026-03-14 09:30:00,yyyy-MM-dd HH:mm:ss
+171,13,systolic_bp,130,1,1,2026-03-14 09:30:00,yyyy-MM-dd HH:mm:ss
+172,13,sex,female,1,1,2026-03-14 09:30:00,yyyy-MM-dd HH:mm:ss
+173,13,insulin_therapy,true,1,1,2026-03-14 09:30:00,yyyy-MM-dd HH:mm:ss
+174,13,diagnosis,type 1,1,1,2026-03-14 09:30:00,yyyy-MM-dd HH:mm:ss
+175,13,age,27,2,1,2026-04-14 09:30:00,yyyy-MM-dd HH:mm:ss
+176,13,bmi,20.5,2,1,2026-04-14 09:30:00,yyyy-MM-dd HH:mm:ss
+177,13,hba1c,8.34,2,1,2026-04-14 09:30:00,yyyy-MM-dd HH:mm:ss
+178,13,systolic_bp,114,2,1,2026-04-14 09:30:00,yyyy-MM-dd HH:mm:ss
+179,13,sex,male,2,1,2026-04-14 09:30:00,yyyy-MM-dd HH:mm:ss
+180,13,insulin_therapy,true,2,1,2026-04-14 09:30:00,yyyy-MM-dd HH:mm:ss
+181,13,diagnosis,type 1,2,1,2026-04-14 09:30:00,yyyy-MM-dd HH:mm:ss
+182,14,age,24,1,1,2026-03-15 09:30:00,yyyy-MM-dd HH:mm:ss
+183,14,bmi,21.2,1,1,2026-03-15 09:30:00,yyyy-MM-dd HH:mm:ss
+184,14,hba1c,7.29,1,1,2026-03-15 09:30:00,yyyy-MM-dd HH:mm:ss
+185,14,systolic_bp,128,1,1,2026-03-15 09:30:00,yyyy-MM-dd HH:mm:ss
+186,14,sex,female,1,1,2026-03-15 09:30:00,yyyy-MM-dd HH:mm:ss
+187,14,insulin_therapy,true,1,1,2026-03-15 09:30:00,yyyy-MM-dd HH:mm:ss
+188,14,diagnosis,type 1,1,1,2026-03-15 09:30:00,yyyy-MM-dd HH:mm:ss
+189,14,age,28,2,1,2026-04-15 09:30:00,yyyy-MM-dd HH:mm:ss
+190,14,bmi,21.1,2,1,2026-04-15 09:30:00,yyyy-MM-dd HH:mm:ss
+191,14,hba1c,7.77,2,1,2026-04-15 09:30:00,yyyy-MM-dd HH:mm:ss
+192,14,systolic_bp,114,2,1,2026-04-15 09:30:00,yyyy-MM-dd HH:mm:ss
+193,14,sex,male,2,1,2026-04-15 09:30:00,yyyy-MM-dd HH:mm:ss
+194,14,insulin_therapy,true,2,1,2026-04-15 09:30:00,yyyy-MM-dd HH:mm:ss
+195,14,diagnosis,type 1,2,1,2026-04-15 09:30:00,yyyy-MM-dd HH:mm:ss
+196,15,age,35,1,1,2026-03-16 09:30:00,yyyy-MM-dd HH:mm:ss
+197,15,bmi,21.7,1,1,2026-03-16 09:30:00,yyyy-MM-dd HH:mm:ss
+198,15,hba1c,7.68,1,1,2026-03-16 09:30:00,yyyy-MM-dd HH:mm:ss
+199,15,systolic_bp,107,1,1,2026-03-16 09:30:00,yyyy-MM-dd HH:mm:ss
+200,15,sex,female,1,1,2026-03-16 09:30:00,yyyy-MM-dd HH:mm:ss
+201,15,insulin_therapy,true,1,1,2026-03-16 09:30:00,yyyy-MM-dd HH:mm:ss
+202,15,diagnosis,type 1,1,1,2026-03-16 09:30:00,yyyy-MM-dd HH:mm:ss
+203,15,age,25,2,1,2026-04-16 09:30:00,yyyy-MM-dd HH:mm:ss
+204,15,bmi,20.4,2,1,2026-04-16 09:30:00,yyyy-MM-dd HH:mm:ss
+205,15,hba1c,8.03,2,1,2026-04-16 09:30:00,yyyy-MM-dd HH:mm:ss
+206,15,systolic_bp,129,2,1,2026-04-16 09:30:00,yyyy-MM-dd HH:mm:ss
+207,15,sex,female,2,1,2026-04-16 09:30:00,yyyy-MM-dd HH:mm:ss
+208,15,insulin_therapy,true,2,1,2026-04-16 09:30:00,yyyy-MM-dd HH:mm:ss
+209,15,diagnosis,type 1,2,1,2026-04-16 09:30:00,yyyy-MM-dd HH:mm:ss
+210,16,age,27,1,1,2026-03-17 09:30:00,yyyy-MM-dd HH:mm:ss
+211,16,bmi,21.2,1,1,2026-03-17 09:30:00,yyyy-MM-dd HH:mm:ss
+212,16,hba1c,7.1,1,1,2026-03-17 09:30:00,yyyy-MM-dd HH:mm:ss
+213,16,systolic_bp,124,1,1,2026-03-17 09:30:00,yyyy-MM-dd HH:mm:ss
+214,16,sex,female,1,1,2026-03-17 09:30:00,yyyy-MM-dd HH:mm:ss
+215,16,insulin_therapy,true,1,1,2026-03-17 09:30:00,yyyy-MM-dd HH:mm:ss
+216,16,diagnosis,type 1,1,1,2026-03-17 09:30:00,yyyy-MM-dd HH:mm:ss
+217,16,age,24,2,1,2026-04-17 09:30:00,yyyy-MM-dd HH:mm:ss
+218,16,bmi,23.4,2,1,2026-04-17 09:30:00,yyyy-MM-dd HH:mm:ss
+219,16,hba1c,7.68,2,1,2026-04-17 09:30:00,yyyy-MM-dd HH:mm:ss
+220,16,systolic_bp,117,2,1,2026-04-17 09:30:00,yyyy-MM-dd HH:mm:ss
+221,16,sex,male,2,1,2026-04-17 09:30:00,yyyy-MM-dd HH:mm:ss
+222,16,insulin_therapy,true,2,1,2026-04-17 09:30:00,yyyy-MM-dd HH:mm:ss
+223,16,diagnosis,type 1,2,1,2026-04-17 09:30:00,yyyy-MM-dd HH:mm:ss
+224,17,age,22,1,1,2026-03-18 09:30:00,yyyy-MM-dd HH:mm:ss
+225,17,bmi,25.2,1,1,2026-03-18 09:30:00,yyyy-MM-dd HH:mm:ss
+226,17,hba1c,7.6,1,1,2026-03-18 09:30:00,yyyy-MM-dd HH:mm:ss
+227,17,systolic_bp,120,1,1,2026-03-18 09:30:00,yyyy-MM-dd HH:mm:ss
+228,17,sex,male,1,1,2026-03-18 09:30:00,yyyy-MM-dd HH:mm:ss
+229,17,insulin_therapy,true,1,1,2026-03-18 09:30:00,yyyy-MM-dd HH:mm:ss
+230,17,diagnosis,type 1,1,1,2026-03-18 09:30:00,yyyy-MM-dd HH:mm:ss
+231,17,age,25,2,1,2026-04-18 09:30:00,yyyy-MM-dd HH:mm:ss
+232,17,bmi,23.8,2,1,2026-04-18 09:30:00,yyyy-MM-dd HH:mm:ss
+233,17,hba1c,7.78,2,1,2026-04-18 09:30:00,yyyy-MM-dd HH:mm:ss
+234,17,systolic_bp,117,2,1,2026-04-18 09:30:00,yyyy-MM-dd HH:mm:ss
+235,17,sex,male,2,1,2026-04-18 09:30:00,yyyy-MM-dd HH:mm:ss
+236,17,insulin_therapy,true,2,1,2026-04-18 09:30:00,yyyy-MM-dd HH:mm:ss
+237,17,diagnosis,type 1,2,1,2026-04-18 09:30:00,yyyy-MM-dd HH:mm:ss
+238,18,age,34,1,1,2026-03-10 09:30:00,yyyy-MM-dd HH:mm:ss
+239,18,bmi,23.9,1,1,2026-03-10 09:30:00,yyyy-MM-dd HH:mm:ss
+240,18,hba1c,7.95,1,1,2026-03-10 09:30:00,yyyy-MM-dd HH:mm:ss
+241,18,systolic_bp,113,1,1,2026-03-10 09:30:00,yyyy-MM-dd HH:mm:ss
+242,18,sex,female,1,1,2026-03-10 09:30:00,yyyy-MM-dd HH:mm:ss
+243,18,insulin_therapy,true,1,1,2026-03-10 09:30:00,yyyy-MM-dd HH:mm:ss
+244,18,diagnosis,type 1,1,1,2026-03-10 09:30:00,yyyy-MM-dd HH:mm:ss
+245,18,age,33,2,1,2026-04-10 09:30:00,yyyy-MM-dd HH:mm:ss
+246,18,bmi,22.2,2,1,2026-04-10 09:30:00,yyyy-MM-dd HH:mm:ss
+247,18,hba1c,8.12,2,1,2026-04-10 09:30:00,yyyy-MM-dd HH:mm:ss
+248,18,systolic_bp,124,2,1,2026-04-10 09:30:00,yyyy-MM-dd HH:mm:ss
+249,18,sex,male,2,1,2026-04-10 09:30:00,yyyy-MM-dd HH:mm:ss
+250,18,insulin_therapy,true,2,1,2026-04-10 09:30:00,yyyy-MM-dd HH:mm:ss
+251,18,diagnosis,type 1,2,1,2026-04-10 09:30:00,yyyy-MM-dd HH:mm:ss
+252,19,age,33,1,1,2026-03-11 09:30:00,yyyy-MM-dd HH:mm:ss
+253,19,bmi,21.6,1,1,2026-03-11 09:30:00,yyyy-MM-dd HH:mm:ss
+254,19,hba1c,8.41,1,1,2026-03-11 09:30:00,yyyy-MM-dd HH:mm:ss
+255,19,sex,male,1,1,2026-03-11 09:30:00,yyyy-MM-dd HH:mm:ss
+256,19,insulin_therapy,true,1,1,2026-03-11 09:30:00,yyyy-MM-dd HH:mm:ss
+257,19,diagnosis,type 1,1,1,2026-03-11 09:30:00,yyyy-MM-dd HH:mm:ss
+258,19,age,32,2,1,2026-04-11 09:30:00,yyyy-MM-dd HH:mm:ss
+259,19,bmi,26.3,2,1,2026-04-11 09:30:00,yyyy-MM-dd HH:mm:ss
+260,19,hba1c,8.49,2,1,2026-04-11 09:30:00,yyyy-MM-dd HH:mm:ss
+261,19,systolic_bp,109,2,1,2026-04-11 09:30:00,yyyy-MM-dd HH:mm:ss
+262,19,sex,male,2,1,2026-04-11 09:30:00,yyyy-MM-dd HH:mm:ss
+263,19,insulin_therapy,true,2,1,2026-04-11 09:30:00,yyyy-MM-dd HH:mm:ss
+264,19,diagnosis,type 1,2,1,2026-04-11 09:30:00,yyyy-MM-dd HH:mm:ss
+265,20,age,32,1,1,2026-03-12 09:30:00,yyyy-MM-dd HH:mm:ss
+266,20,bmi,20.5,1,1,2026-03-12 09:30:00,yyyy-MM-dd HH:mm:ss
+267,20,hba1c,7.8,1,1,2026-03-12 09:30:00,yyyy-MM-dd HH:mm:ss
+268,20,systolic_bp,125,1,1,2026-03-12 09:30:00,yyyy-MM-dd HH:mm:ss
+269,20,sex,female,1,1,2026-03-12 09:30:00,yyyy-MM-dd HH:mm:ss
+270,20,insulin_therapy,true,1,1,2026-03-12 09:30:00,yyyy-MM-dd HH:mm:ss
+271,20,diagnosis,type 1,1,1,2026-03-12 09:30:00,yyyy-MM-dd HH:mm:ss
+272,20,age,29,2,1,2026-04-12 09:30:00,yyyy-MM-dd HH:mm:ss
+273,20,bmi,22.6,2,1,2026-04-12 09:30:00,yyyy-MM-dd HH:mm:ss
+274,20,hba1c,7.8,2,1,2026-04-12 09:30:00,yyyy-MM-dd HH:mm:ss
+275,20,systolic_bp,118,2,1,2026-04-12 09:30:00,yyyy-MM-dd HH:mm:ss
+276,20,sex,female,2,1,2026-04-12 09:30:00,yyyy-MM-dd HH:mm:ss
+277,20,insulin_therapy,true,2,1,2026-04-12 09:30:00,yyyy-MM-dd HH:mm:ss
+278,20,diagnosis,type 1,2,1,2026-04-12 09:30:00,yyyy-MM-dd HH:mm:ss
+279,21,age,53,1,1,2026-03-13 09:30:00,yyyy-MM-dd HH:mm:ss
+280,21,bmi,30.7,1,1,2026-03-13 09:30:00,yyyy-MM-dd HH:mm:ss
+281,21,hba1c,6.81,1,1,2026-03-13 09:30:00,yyyy-MM-dd HH:mm:ss
+282,21,systolic_bp,121,1,1,2026-03-13 09:30:00,yyyy-MM-dd HH:mm:ss
+283,21,sex,female,1,1,2026-03-13 09:30:00,yyyy-MM-dd HH:mm:ss
+284,21,insulin_therapy,false,1,1,2026-03-13 09:30:00,yyyy-MM-dd HH:mm:ss
+285,21,diagnosis,type 2,1,1,2026-03-13 09:30:00,yyyy-MM-dd HH:mm:ss
+286,21,age,56,2,1,2026-04-13 09:30:00,yyyy-MM-dd HH:mm:ss
+287,21,bmi,29.7,2,1,2026-04-13 09:30:00,yyyy-MM-dd HH:mm:ss
+288,21,hba1c,6.9,2,1,2026-04-13 09:30:00,yyyy-MM-dd HH:mm:ss
+289,21,systolic_bp,127,2,1,2026-04-13 09:30:00,yyyy-MM-dd HH:mm:ss
+290,21,sex,male,2,1,2026-04-13 09:30:00,yyyy-MM-dd HH:mm:ss
+291,21,insulin_therapy,false,2,1,2026-04-13 09:30:00,yyyy-MM-dd HH:mm:ss
+292,21,diagnosis,type 2,2,1,2026-04-13 09:30:00,yyyy-MM-dd HH:mm:ss
+293,22,age,63,1,1,2026-03-14 09:30:00,yyyy-MM-dd HH:mm:ss
+294,22,bmi,31.7,1,1,2026-03-14 09:30:00,yyyy-MM-dd HH:mm:ss
+295,22,hba1c,8.01,1,1,2026-03-14 09:30:00,yyyy-MM-dd HH:mm:ss
+296,22,systolic_bp,123,1,1,2026-03-14 09:30:00,yyyy-MM-dd HH:mm:ss
+297,22,sex,male,1,1,2026-03-14 09:30:00,yyyy-MM-dd HH:mm:ss
+298,22,insulin_therapy,false,1,1,2026-03-14 09:30:00,yyyy-MM-dd HH:mm:ss
+299,22,diagnosis,type 2,1,1,2026-03-14 09:30:00,yyyy-MM-dd HH:mm:ss
+300,22,age,54,2,1,2026-04-14 09:30:00,yyyy-MM-dd HH:mm:ss
+301,22,bmi,30.1,2,1,2026-04-14 09:30:00,yyyy-MM-dd HH:mm:ss
+302,22,hba1c,7.6,2,1,2026-04-14 09:30:00,yyyy-MM-dd HH:mm:ss
+303,22,systolic_bp,134,2,1,2026-04-14 09:30:00,yyyy-MM-dd HH:mm:ss
+304,22,sex,male,2,1,2026-04-14 09:30:00,yyyy-MM-dd HH:mm:ss
+305,22,insulin_therapy,true,2,1,2026-04-14 09:30:00,yyyy-MM-dd HH:mm:ss
+306,22,diagnosis,type 2,2,1,2026-04-14 09:30:00,yyyy-MM-dd HH:mm:ss
+307,23,age,67,1,1,2026-03-15 09:30:00,yyyy-MM-dd HH:mm:ss
+308,23,bmi,31.0,1,1,2026-03-15 09:30:00,yyyy-MM-dd HH:mm:ss
+309,23,hba1c,6.32,1,1,2026-03-15 09:30:00,yyyy-MM-dd HH:mm:ss
+310,23,systolic_bp,129,1,1,2026-03-15 09:30:00,yyyy-MM-dd HH:mm:ss
+311,23,sex,female,1,1,2026-03-15 09:30:00,yyyy-MM-dd HH:mm:ss
+312,23,insulin_therapy,true,1,1,2026-03-15 09:30:00,yyyy-MM-dd HH:mm:ss
+313,23,diagnosis,type 2,1,1,2026-03-15 09:30:00,yyyy-MM-dd HH:mm:ss
+314,23,age,58,2,1,2026-04-15 09:30:00,yyyy-MM-dd HH:mm:ss
+315,23,bmi,33.7,2,1,2026-04-15 09:30:00,yyyy-MM-dd HH:mm:ss
+316,23,hba1c,7.32,2,1,2026-04-15 09:30:00,yyyy-MM-dd HH:mm:ss
+317,23,sex,female,2,1,2026-04-15 09:30:00,yyyy-MM-dd HH:mm:ss
+318,23,insulin_therapy,true,2,1,2026-04-15 09:30:00,yyyy-MM-dd HH:mm:ss
+319,23,diagnosis,type 2,2,1,2026-04-15 09:30:00,yyyy-MM-dd HH:mm:ss
+320,24,age,62,1,1,2026-03-16 09:30:00,yyyy-MM-dd HH:mm:ss
+321,24,bmi,31.1,1,1,2026-03-16 09:30:00,yyyy-MM-dd HH:mm:ss
+322,24,hba1c,7.18,1,1,2026-03-16 09:30:00,yyyy-MM-dd HH:mm:ss
+323,24,systolic_bp,135,1,1,2026-03-16 09:30:00,yyyy-MM-dd HH:mm:ss
+324,24,sex,male,1,1,2026-03-16 09:30:00,yyyy-MM-dd HH:mm:ss
+325,24,insulin_therapy,false,1,1,2026-03-16 09:30:00,yyyy-MM-dd HH:mm:ss
+326,24,diagnosis,type 2,1,1,2026-03-16 09:30:00,yyyy-MM-dd HH:mm:ss
+327,24,age,56,2,1,2026-04-16 09:30:00,yyyy-MM-dd HH:mm:ss
+328,24,bmi,32.0,2,1,2026-04-16 09:30:00,yyyy-MM-dd HH:mm:ss
+329,24,hba1c,7.03,2,1,2026-04-16 09:30:00,yyyy-MM-dd HH:mm:ss
+330,24,systolic_bp,143,2,1,2026-04-16 09:30:00,yyyy-MM-dd HH:mm:ss
+331,24,sex,female,2,1,2026-04-16 09:30:00,yyyy-MM-dd HH:mm:ss
+332,24,insulin_therapy,false,2,1,2026-04-16 09:30:00,yyyy-MM-dd HH:mm:ss
+333,24,diagnosis,type 2,2,1,2026-04-16 09:30:00,yyyy-MM-dd HH:mm:ss
+334,25,age,61,1,1,2026-03-17 09:30:00,yyyy-MM-dd HH:mm:ss
+335,25,bmi,28.4,1,1,2026-03-17 09:30:00,yyyy-MM-dd HH:mm:ss
+336,25,hba1c,7.89,1,1,2026-03-17 09:30:00,yyyy-MM-dd HH:mm:ss
+337,25,systolic_bp,146,1,1,2026-03-17 09:30:00,yyyy-MM-dd HH:mm:ss
+338,25,sex,female,1,1,2026-03-17 09:30:00,yyyy-MM-dd HH:mm:ss
+339,25,insulin_therapy,false,1,1,2026-03-17 09:30:00,yyyy-MM-dd HH:mm:ss
+340,25,diagnosis,type 2,1,1,2026-03-17 09:30:00,yyyy-MM-dd HH:mm:ss
+341,25,age,48,2,1,2026-04-17 09:30:00,yyyy-MM-dd HH:mm:ss
+342,25,bmi,31.5,2,1,2026-04-17 09:30:00,yyyy-MM-dd HH:mm:ss
+343,25,hba1c,7.28,2,1,2026-04-17 09:30:00,yyyy-MM-dd HH:mm:ss
+344,25,systolic_bp,135,2,1,2026-04-17 09:30:00,yyyy-MM-dd HH:mm:ss
+345,25,sex,male,2,1,2026-04-17 09:30:00,yyyy-MM-dd HH:mm:ss
+346,25,insulin_therapy,true,2,1,2026-04-17 09:30:00,yyyy-MM-dd HH:mm:ss
+347,25,diagnosis,type 2,2,1,2026-04-17 09:30:00,yyyy-MM-dd HH:mm:ss
+348,26,age,60,1,1,2026-03-18 09:30:00,yyyy-MM-dd HH:mm:ss
+349,26,bmi,33.4,1,1,2026-03-18 09:30:00,yyyy-MM-dd HH:mm:ss
+350,26,hba1c,7.33,1,1,2026-03-18 09:30:00,yyyy-MM-dd HH:mm:ss
+351,26,systolic_bp,134,1,1,2026-03-18 09:30:00,yyyy-MM-dd HH:mm:ss
+352,26,sex,male,1,1,2026-03-18 09:30:00,yyyy-MM-dd HH:mm:ss
+353,26,insulin_therapy,false,1,1,2026-03-18 09:30:00,yyyy-MM-dd HH:mm:ss
+354,26,diagnosis,type 2,1,1,2026-03-18 09:30:00,yyyy-MM-dd HH:mm:ss
+355,26,age,52,2,1,2026-04-18 09:30:00,yyyy-MM-dd HH:mm:ss
+356,26,bmi,34.1,2,1,2026-04-18 09:30:00,yyyy-MM-dd HH:mm:ss
+357,26,hba1c,7.69,2,1,2026-04-18 09:30:00,yyyy-MM-dd HH:mm:ss
+358,26,systolic_bp,142,2,1,2026-04-18 09:30:00,yyyy-MM-dd HH:mm:ss
+359,26,sex,female,2,1,2026-04-18 09:30:00,yyyy-MM-dd HH:mm:ss
+360,26,insulin_therapy,false,2,1,2026-04-18 09:30:00,yyyy-MM-dd HH:mm:ss
+361,26,diagnosis,type 2,2,1,2026-04-18 09:30:00,yyyy-MM-dd HH:mm:ss
+362,27,age,62,1,1,2026-03-10 09:30:00,yyyy-MM-dd HH:mm:ss
+363,27,bmi,30.5,1,1,2026-03-10 09:30:00,yyyy-MM-dd HH:mm:ss
+364,27,hba1c,7.12,1,1,2026-03-10 09:30:00,yyyy-MM-dd HH:mm:ss
+365,27,systolic_bp,135,1,1,2026-03-10 09:30:00,yyyy-MM-dd HH:mm:ss
+366,27,sex,female,1,1,2026-03-10 09:30:00,yyyy-MM-dd HH:mm:ss
+367,27,insulin_therapy,false,1,1,2026-03-10 09:30:00,yyyy-MM-dd HH:mm:ss
+368,27,diagnosis,type 2,1,1,2026-03-10 09:30:00,yyyy-MM-dd HH:mm:ss
+369,27,age,58,2,1,2026-04-10 09:30:00,yyyy-MM-dd HH:mm:ss
+370,27,bmi,29.7,2,1,2026-04-10 09:30:00,yyyy-MM-dd HH:mm:ss
+371,27,hba1c,7.94,2,1,2026-04-10 09:30:00,yyyy-MM-dd HH:mm:ss
+372,27,systolic_bp,139,2,1,2026-04-10 09:30:00,yyyy-MM-dd HH:mm:ss
+373,27,sex,male,2,1,2026-04-10 09:30:00,yyyy-MM-dd HH:mm:ss
+374,27,insulin_therapy,false,2,1,2026-04-10 09:30:00,yyyy-MM-dd HH:mm:ss
+375,27,diagnosis,type 2,2,1,2026-04-10 09:30:00,yyyy-MM-dd HH:mm:ss
+376,28,age,55,1,1,2026-03-11 09:30:00,yyyy-MM-dd HH:mm:ss
+377,28,bmi,30.9,1,1,2026-03-11 09:30:00,yyyy-MM-dd HH:mm:ss
+378,28,hba1c,7.55,1,1,2026-03-11 09:30:00,yyyy-MM-dd HH:mm:ss
+379,28,systolic_bp,131,1,1,2026-03-11 09:30:00,yyyy-MM-dd HH:mm:ss
+380,28,sex,female,1,1,2026-03-11 09:30:00,yyyy-MM-dd HH:mm:ss
+381,28,insulin_therapy,true,1,1,2026-03-11 09:30:00,yyyy-MM-dd HH:mm:ss
+382,28,diagnosis,type 2,1,1,2026-03-11 09:30:00,yyyy-MM-dd HH:mm:ss
+383,28,age,53,2,1,2026-04-11 09:30:00,yyyy-MM-dd HH:mm:ss
+384,28,bmi,30.5,2,1,2026-04-11 09:30:00,yyyy-MM-dd HH:mm:ss
+385,28,hba1c,6.96,2,1,2026-04-11 09:30:00,yyyy-MM-dd HH:mm:ss
+386,28,sex,female,2,1,2026-04-11 09:30:00,yyyy-MM-dd HH:mm:ss
+387,28,insulin_therapy,false,2,1,2026-04-11 09:30:00,yyyy-MM-dd HH:mm:ss
+388,28,diagnosis,type 2,2,1,2026-04-11 09:30:00,yyyy-MM-dd HH:mm:ss
+389,29,age,54,1,1,2026-03-12 09:30:00,yyyy-MM-dd HH:mm:ss
+390,29,bmi,34.0,1,1,2026-03-12 09:30:00,yyyy-MM-dd HH:mm:ss
+391,29,hba1c,7.07,1,1,2026-03-12 09:30:00,yyyy-MM-dd HH:mm:ss
+392,29,systolic_bp,130,1,1,2026-03-12 09:30:00,yyyy-MM-dd HH:mm:ss
+393,29,sex,male,1,1,2026-03-12 09:30:00,yyyy-MM-dd HH:mm:ss
+394,29,insulin_therapy,false,1,1,2026-03-12 09:30:00,yyyy-MM-dd HH:mm:ss
+395,29,diagnosis,type 2,1,1,2026-03-12 09:30:00,yyyy-MM-dd HH:mm:ss
+396,29,age,63,2,1,2026-04-12 09:30:00,yyyy-MM-dd HH:mm:ss
+397,29,bmi,35.0,2,1,2026-04-12 09:30:00,yyyy-MM-dd HH:mm:ss
+398,29,hba1c,7.2,2,1,2026-04-12 09:30:00,yyyy-MM-dd HH:mm:ss
+399,29,sex,female,2,1,2026-04-12 09:30:00,yyyy-MM-dd HH:mm:ss
+400,29,insulin_therapy,false,2,1,2026-04-12 09:30:00,yyyy-MM-dd HH:mm:ss
+401,29,diagnosis,type 2,2,1,2026-04-12 09:30:00,yyyy-MM-dd HH:mm:ss
+402,30,age,55,1,1,2026-03-13 09:30:00,yyyy-MM-dd HH:mm:ss
+403,30,bmi,28.8,1,1,2026-03-13 09:30:00,yyyy-MM-dd HH:mm:ss
+404,30,hba1c,7.71,1,1,2026-03-13 09:30:00,yyyy-MM-dd HH:mm:ss
+405,30,systolic_bp,127,1,1,2026-03-13 09:30:00,yyyy-MM-dd HH:mm:ss
+406,30,sex,male,1,1,2026-03-13 09:30:00,yyyy-MM-dd HH:mm:ss
+407,30,insulin_therapy,false,1,1,2026-03-13 09:30:00,yyyy-MM-dd HH:mm:ss
+408,30,diagnosis,type 2,1,1,2026-03-13 09:30:00,yyyy-MM-dd HH:mm:ss
+409,30,age,64,2,1,2026-04-13 09:30:00,yyyy-MM-dd HH:mm:ss
+410,30,bmi,34.9,2,1,2026-04-13 09:30:00,yyyy-MM-dd HH:mm:ss
+411,30,hba1c,7.22,2,1,2026-04-13 09:30:00,yyyy-MM-dd HH:mm:ss
+412,30,sex,female,2,1,2026-04-13 09:30:00,yyyy-MM-dd HH:mm:ss
+413,30,insulin_therapy,true,2,1,2026-04-13 09:30:00,yyyy-MM-dd HH:mm:ss
+414,30,diagnosis,type 2,2,1,2026-04-13 09:30:00,yyyy-MM-dd HH:mm:ss
+415,31,age,61,1,1,2026-03-14 09:30:00,yyyy-MM-dd HH:mm:ss
+416,31,bmi,34.0,1,1,2026-03-14 09:30:00,yyyy-MM-dd HH:mm:ss
+417,31,hba1c,7.58,1,1,2026-03-14 09:30:00,yyyy-MM-dd HH:mm:ss
+418,31,systolic_bp,127,1,1,2026-03-14 09:30:00,yyyy-MM-dd HH:mm:ss
+419,31,sex,male,1,1,2026-03-14 09:30:00,yyyy-MM-dd HH:mm:ss
+420,31,insulin_therapy,true,1,1,2026-03-14 09:30:00,yyyy-MM-dd HH:mm:ss
+421,31,diagnosis,type 2,1,1,2026-03-14 09:30:00,yyyy-MM-dd HH:mm:ss
+422,31,age,60,2,1,2026-04-14 09:30:00,yyyy-MM-dd HH:mm:ss
+423,31,bmi,31.4,2,1,2026-04-14 09:30:00,yyyy-MM-dd HH:mm:ss
+424,31,hba1c,7.42,2,1,2026-04-14 09:30:00,yyyy-MM-dd HH:mm:ss
+425,31,systolic_bp,132,2,1,2026-04-14 09:30:00,yyyy-MM-dd HH:mm:ss
+426,31,sex,female,2,1,2026-04-14 09:30:00,yyyy-MM-dd HH:mm:ss
+427,31,insulin_therapy,false,2,1,2026-04-14 09:30:00,yyyy-MM-dd HH:mm:ss
+428,31,diagnosis,type 2,2,1,2026-04-14 09:30:00,yyyy-MM-dd HH:mm:ss
+429,32,age,61,1,1,2026-03-15 09:30:00,yyyy-MM-dd HH:mm:ss
+430,32,bmi,32.0,1,1,2026-03-15 09:30:00,yyyy-MM-dd HH:mm:ss
+431,32,hba1c,7.95,1,1,2026-03-15 09:30:00,yyyy-MM-dd HH:mm:ss
+432,32,systolic_bp,139,1,1,2026-03-15 09:30:00,yyyy-MM-dd HH:mm:ss
+433,32,sex,female,1,1,2026-03-15 09:30:00,yyyy-MM-dd HH:mm:ss
+434,32,insulin_therapy,true,1,1,2026-03-15 09:30:00,yyyy-MM-dd HH:mm:ss
+435,32,diagnosis,type 2,1,1,2026-03-15 09:30:00,yyyy-MM-dd HH:mm:ss
+436,32,age,51,2,1,2026-04-15 09:30:00,yyyy-MM-dd HH:mm:ss
+437,32,bmi,28.2,2,1,2026-04-15 09:30:00,yyyy-MM-dd HH:mm:ss
+438,32,hba1c,7.64,2,1,2026-04-15 09:30:00,yyyy-MM-dd HH:mm:ss
+439,32,systolic_bp,140,2,1,2026-04-15 09:30:00,yyyy-MM-dd HH:mm:ss
+440,32,sex,female,2,1,2026-04-15 09:30:00,yyyy-MM-dd HH:mm:ss
+441,32,insulin_therapy,false,2,1,2026-04-15 09:30:00,yyyy-MM-dd HH:mm:ss
+442,32,diagnosis,type 2,2,1,2026-04-15 09:30:00,yyyy-MM-dd HH:mm:ss
+443,33,age,59,1,1,2026-03-16 09:30:00,yyyy-MM-dd HH:mm:ss
+444,33,bmi,29.6,1,1,2026-03-16 09:30:00,yyyy-MM-dd HH:mm:ss
+445,33,hba1c,7.45,1,1,2026-03-16 09:30:00,yyyy-MM-dd HH:mm:ss
+446,33,systolic_bp,153,1,1,2026-03-16 09:30:00,yyyy-MM-dd HH:mm:ss
+447,33,sex,male,1,1,2026-03-16 09:30:00,yyyy-MM-dd HH:mm:ss
+448,33,insulin_therapy,true,1,1,2026-03-16 09:30:00,yyyy-MM-dd HH:mm:ss
+449,33,diagnosis,type 2,1,1,2026-03-16 09:30:00,yyyy-MM-dd HH:mm:ss
+450,33,age,61,2,1,2026-04-16 09:30:00,yyyy-MM-dd HH:mm:ss
+451,33,bmi,30.6,2,1,2026-04-16 09:30:00,yyyy-MM-dd HH:mm:ss
+452,33,hba1c,6.84,2,1,2026-04-16 09:30:00,yyyy-MM-dd HH:mm:ss
+453,33,systolic_bp,135,2,1,2026-04-16 09:30:00,yyyy-MM-dd HH:mm:ss
+454,33,sex,female,2,1,2026-04-16 09:30:00,yyyy-MM-dd HH:mm:ss
+455,33,insulin_therapy,false,2,1,2026-04-16 09:30:00,yyyy-MM-dd HH:mm:ss
+456,33,diagnosis,type 2,2,1,2026-04-16 09:30:00,yyyy-MM-dd HH:mm:ss
+457,34,age,66,1,1,2026-03-17 09:30:00,yyyy-MM-dd HH:mm:ss
+458,34,bmi,33.2,1,1,2026-03-17 09:30:00,yyyy-MM-dd HH:mm:ss
+459,34,hba1c,7.01,1,1,2026-03-17 09:30:00,yyyy-MM-dd HH:mm:ss
+460,34,systolic_bp,139,1,1,2026-03-17 09:30:00,yyyy-MM-dd HH:mm:ss
+461,34,sex,female,1,1,2026-03-17 09:30:00,yyyy-MM-dd HH:mm:ss
+462,34,insulin_therapy,true,1,1,2026-03-17 09:30:00,yyyy-MM-dd HH:mm:ss
+463,34,diagnosis,type 2,1,1,2026-03-17 09:30:00,yyyy-MM-dd HH:mm:ss
+464,34,age,55,2,1,2026-04-17 09:30:00,yyyy-MM-dd HH:mm:ss
+465,34,bmi,28.1,2,1,2026-04-17 09:30:00,yyyy-MM-dd HH:mm:ss
+466,34,hba1c,7.62,2,1,2026-04-17 09:30:00,yyyy-MM-dd HH:mm:ss
+467,34,sex,male,2,1,2026-04-17 09:30:00,yyyy-MM-dd HH:mm:ss
+468,34,insulin_therapy,false,2,1,2026-04-17 09:30:00,yyyy-MM-dd HH:mm:ss
+469,34,diagnosis,type 2,2,1,2026-04-17 09:30:00,yyyy-MM-dd HH:mm:ss
+470,35,age,52,1,1,2026-03-18 09:30:00,yyyy-MM-dd HH:mm:ss
+471,35,bmi,29.4,1,1,2026-03-18 09:30:00,yyyy-MM-dd HH:mm:ss
+472,35,hba1c,7.27,1,1,2026-03-18 09:30:00,yyyy-MM-dd HH:mm:ss
+473,35,systolic_bp,138,1,1,2026-03-18 09:30:00,yyyy-MM-dd HH:mm:ss
+474,35,sex,male,1,1,2026-03-18 09:30:00,yyyy-MM-dd HH:mm:ss
+475,35,insulin_therapy,false,1,1,2026-03-18 09:30:00,yyyy-MM-dd HH:mm:ss
+476,35,diagnosis,type 2,1,1,2026-03-18 09:30:00,yyyy-MM-dd HH:mm:ss
+477,35,age,55,2,1,2026-04-18 09:30:00,yyyy-MM-dd HH:mm:ss
+478,35,bmi,29.1,2,1,2026-04-18 09:30:00,yyyy-MM-dd HH:mm:ss
+479,35,hba1c,7.62,2,1,2026-04-18 09:30:00,yyyy-MM-dd HH:mm:ss
+480,35,systolic_bp,138,2,1,2026-04-18 09:30:00,yyyy-MM-dd HH:mm:ss
+481,35,sex,male,2,1,2026-04-18 09:30:00,yyyy-MM-dd HH:mm:ss
+482,35,insulin_therapy,false,2,1,2026-04-18 09:30:00,yyyy-MM-dd HH:mm:ss
+483,35,diagnosis,type 2,2,1,2026-04-18 09:30:00,yyyy-MM-dd HH:mm:ss
+484,36,age,64,1,1,2026-03-10 09:30:00,yyyy-MM-dd HH:mm:ss
+485,36,bmi,33.7,1,1,2026-03-10 09:30:00,yyyy-MM-dd HH:mm:ss
+486,36,hba1c,7.05,1,1,2026-03-10 09:30:00,yyyy-MM-dd HH:mm:ss
+487,36,sex,female,1,1,2026-03-10 09:30:00,yyyy-MM-dd HH:mm:ss
+488,36,insulin_therapy,false,1,1,2026-03-10 09:30:00,yyyy-MM-dd HH:mm:ss
+489,36,diagnosis,type 2,1,1,2026-03-10 09:30:00,yyyy-MM-dd HH:mm:ss
+490,36,age,69,2,1,2026-04-10 09:30:00,yyyy-MM-dd HH:mm:ss
+491,36,bmi,29.7,2,1,2026-04-10 09:30:00,yyyy-MM-dd HH:mm:ss
+492,36,hba1c,7.37,2,1,2026-04-10 09:30:00,yyyy-MM-dd HH:mm:ss
+493,36,systolic_bp,121,2,1,2026-04-10 09:30:00,yyyy-MM-dd HH:mm:ss
+494,36,sex,female,2,1,2026-04-10 09:30:00,yyyy-MM-dd HH:mm:ss
+495,36,insulin_therapy,false,2,1,2026-04-10 09:30:00,yyyy-MM-dd HH:mm:ss
+496,36,diagnosis,type 2,2,1,2026-04-10 09:30:00,yyyy-MM-dd HH:mm:ss
+497,37,age,55,1,1,2026-03-11 09:30:00,yyyy-MM-dd HH:mm:ss
+498,37,bmi,33.1,1,1,2026-03-11 09:30:00,yyyy-MM-dd HH:mm:ss
+499,37,hba1c,7.33,1,1,2026-03-11 09:30:00,yyyy-MM-dd HH:mm:ss
+500,37,systolic_bp,126,1,1,2026-03-11 09:30:00,yyyy-MM-dd HH:mm:ss
+501,37,sex,male,1,1,2026-03-11 09:30:00,yyyy-MM-dd HH:mm:ss
+502,37,insulin_therapy,false,1,1,2026-03-11 09:30:00,yyyy-MM-dd HH:mm:ss
+503,37,diagnosis,type 2,1,1,2026-03-11 09:30:00,yyyy-MM-dd HH:mm:ss
+504,37,age,58,2,1,2026-04-11 09:30:00,yyyy-MM-dd HH:mm:ss
+505,37,bmi,29.3,2,1,2026-04-11 09:30:00,yyyy-MM-dd HH:mm:ss
+506,37,hba1c,7.18,2,1,2026-04-11 09:30:00,yyyy-MM-dd HH:mm:ss
+507,37,systolic_bp,126,2,1,2026-04-11 09:30:00,yyyy-MM-dd HH:mm:ss
+508,37,sex,female,2,1,2026-04-11 09:30:00,yyyy-MM-dd HH:mm:ss
+509,37,insulin_therapy,true,2,1,2026-04-11 09:30:00,yyyy-MM-dd HH:mm:ss
+510,37,diagnosis,type 2,2,1,2026-04-11 09:30:00,yyyy-MM-dd HH:mm:ss
+511,38,age,65,1,1,2026-03-12 09:30:00,yyyy-MM-dd HH:mm:ss
+512,38,bmi,27.9,1,1,2026-03-12 09:30:00,yyyy-MM-dd HH:mm:ss
+513,38,hba1c,7.2,1,1,2026-03-12 09:30:00,yyyy-MM-dd HH:mm:ss
+514,38,systolic_bp,129,1,1,2026-03-12 09:30:00,yyyy-MM-dd HH:mm:ss
+515,38,sex,female,1,1,2026-03-12 09:30:00,yyyy-MM-dd HH:mm:ss
+516,38,insulin_therapy,false,1,1,2026-03-12 09:30:00,yyyy-MM-dd HH:mm:ss
+517,38,diagnosis,type 2,1,1,2026-03-12 09:30:00,yyyy-MM-dd HH:mm:ss
+518,38,age,68,2,1,2026-04-12 09:30:00,yyyy-MM-dd HH:mm:ss
+519,38,bmi,29.4,2,1,2026-04-12 09:30:00,yyyy-MM-dd HH:mm:ss
+520,38,hba1c,7.45,2,1,2026-04-12 09:30:00,yyyy-MM-dd HH:mm:ss
+521,38,systolic_bp,133,2,1,2026-04-12 09:30:00,yyyy-MM-dd HH:mm:ss
+522,38,sex,male,2,1,2026-04-12 09:30:00,yyyy-MM-dd HH:mm:ss
+523,38,insulin_therapy,false,2,1,2026-04-12 09:30:00,yyyy-MM-dd HH:mm:ss
+524,38,diagnosis,type 2,2,1,2026-04-12 09:30:00,yyyy-MM-dd HH:mm:ss
+525,39,age,60,1,1,2026-03-13 09:30:00,yyyy-MM-dd HH:mm:ss
+526,39,bmi,32.2,1,1,2026-03-13 09:30:00,yyyy-MM-dd HH:mm:ss
+527,39,hba1c,7.18,1,1,2026-03-13 09:30:00,yyyy-MM-dd HH:mm:ss
+528,39,systolic_bp,126,1,1,2026-03-13 09:30:00,yyyy-MM-dd HH:mm:ss
+529,39,sex,female,1,1,2026-03-13 09:30:00,yyyy-MM-dd HH:mm:ss
+530,39,insulin_therapy,false,1,1,2026-03-13 09:30:00,yyyy-MM-dd HH:mm:ss
+531,39,diagnosis,type 2,1,1,2026-03-13 09:30:00,yyyy-MM-dd HH:mm:ss
+532,39,age,56,2,1,2026-04-13 09:30:00,yyyy-MM-dd HH:mm:ss
+533,39,bmi,30.9,2,1,2026-04-13 09:30:00,yyyy-MM-dd HH:mm:ss
+534,39,hba1c,6.61,2,1,2026-04-13 09:30:00,yyyy-MM-dd HH:mm:ss
+535,39,systolic_bp,140,2,1,2026-04-13 09:30:00,yyyy-MM-dd HH:mm:ss
+536,39,sex,male,2,1,2026-04-13 09:30:00,yyyy-MM-dd HH:mm:ss
+537,39,insulin_therapy,false,2,1,2026-04-13 09:30:00,yyyy-MM-dd HH:mm:ss
+538,39,diagnosis,type 2,2,1,2026-04-13 09:30:00,yyyy-MM-dd HH:mm:ss
+539,40,age,61,1,1,2026-03-14 09:30:00,yyyy-MM-dd HH:mm:ss
+540,40,bmi,33.2,1,1,2026-03-14 09:30:00,yyyy-MM-dd HH:mm:ss
+541,40,hba1c,6.59,1,1,2026-03-14 09:30:00,yyyy-MM-dd HH:mm:ss
+542,40,systolic_bp,126,1,1,2026-03-14 09:30:00,yyyy-MM-dd HH:mm:ss
+543,40,sex,male,1,1,2026-03-14 09:30:00,yyyy-MM-dd HH:mm:ss
+544,40,insulin_therapy,false,1,1,2026-03-14 09:30:00,yyyy-MM-dd HH:mm:ss
+545,40,diagnosis,type 2,1,1,2026-03-14 09:30:00,yyyy-MM-dd HH:mm:ss
+546,40,age,57,2,1,2026-04-14 09:30:00,yyyy-MM-dd HH:mm:ss
+547,40,bmi,29.6,2,1,2026-04-14 09:30:00,yyyy-MM-dd HH:mm:ss
+548,40,hba1c,7.53,2,1,2026-04-14 09:30:00,yyyy-MM-dd HH:mm:ss
+549,40,systolic_bp,128,2,1,2026-04-14 09:30:00,yyyy-MM-dd HH:mm:ss
+550,40,sex,male,2,1,2026-04-14 09:30:00,yyyy-MM-dd HH:mm:ss
+551,40,insulin_therapy,false,2,1,2026-04-14 09:30:00,yyyy-MM-dd HH:mm:ss
+552,40,diagnosis,type 2,2,1,2026-04-14 09:30:00,yyyy-MM-dd HH:mm:ss
+553,41,age,37,1,1,2026-03-15 09:30:00,yyyy-MM-dd HH:mm:ss
+554,41,bmi,22.1,1,1,2026-03-15 09:30:00,yyyy-MM-dd HH:mm:ss
+555,41,hba1c,4.57,1,1,2026-03-15 09:30:00,yyyy-MM-dd HH:mm:ss
+556,41,systolic_bp,141,1,1,2026-03-15 09:30:00,yyyy-MM-dd HH:mm:ss
+557,41,sex,male,1,1,2026-03-15 09:30:00,yyyy-MM-dd HH:mm:ss
+558,41,insulin_therapy,false,1,1,2026-03-15 09:30:00,yyyy-MM-dd HH:mm:ss
+559,41,diagnosis,control,1,1,2026-03-15 09:30:00,yyyy-MM-dd HH:mm:ss
+560,41,age,46,2,1,2026-04-15 09:30:00,yyyy-MM-dd HH:mm:ss
+561,41,bmi,24.6,2,1,2026-04-15 09:30:00,yyyy-MM-dd HH:mm:ss
+562,41,hba1c,6.16,2,1,2026-04-15 09:30:00,yyyy-MM-dd HH:mm:ss
+563,41,systolic_bp,118,2,1,2026-04-15 09:30:00,yyyy-MM-dd HH:mm:ss
+564,41,sex,male,2,1,2026-04-15 09:30:00,yyyy-MM-dd HH:mm:ss
+565,41,insulin_therapy,true,2,1,2026-04-15 09:30:00,yyyy-MM-dd HH:mm:ss
+566,41,diagnosis,control,2,1,2026-04-15 09:30:00,yyyy-MM-dd HH:mm:ss
+567,42,age,39,1,1,2026-03-16 09:30:00,yyyy-MM-dd HH:mm:ss
+568,42,bmi,22.5,1,1,2026-03-16 09:30:00,yyyy-MM-dd HH:mm:ss
+569,42,hba1c,4.77,1,1,2026-03-16 09:30:00,yyyy-MM-dd HH:mm:ss
+570,42,systolic_bp,132,1,1,2026-03-16 09:30:00,yyyy-MM-dd HH:mm:ss
+571,42,sex,female,1,1,2026-03-16 09:30:00,yyyy-MM-dd HH:mm:ss
+572,42,insulin_therapy,false,1,1,2026-03-16 09:30:00,yyyy-MM-dd HH:mm:ss
+573,42,diagnosis,control,1,1,2026-03-16 09:30:00,yyyy-MM-dd HH:mm:ss
+574,42,age,43,2,1,2026-04-16 09:30:00,yyyy-MM-dd HH:mm:ss
+575,42,bmi,27.3,2,1,2026-04-16 09:30:00,yyyy-MM-dd HH:mm:ss
+576,42,hba1c,4.27,2,1,2026-04-16 09:30:00,yyyy-MM-dd HH:mm:ss
+577,42,systolic_bp,131,2,1,2026-04-16 09:30:00,yyyy-MM-dd HH:mm:ss
+578,42,sex,male,2,1,2026-04-16 09:30:00,yyyy-MM-dd HH:mm:ss
+579,42,insulin_therapy,true,2,1,2026-04-16 09:30:00,yyyy-MM-dd HH:mm:ss
+580,42,diagnosis,control,2,1,2026-04-16 09:30:00,yyyy-MM-dd HH:mm:ss
+581,43,age,40,1,1,2026-03-17 09:30:00,yyyy-MM-dd HH:mm:ss
+582,43,bmi,23.9,1,1,2026-03-17 09:30:00,yyyy-MM-dd HH:mm:ss
+583,43,hba1c,4.7,1,1,2026-03-17 09:30:00,yyyy-MM-dd HH:mm:ss
+584,43,sex,male,1,1,2026-03-17 09:30:00,yyyy-MM-dd HH:mm:ss
+585,43,insulin_therapy,false,1,1,2026-03-17 09:30:00,yyyy-MM-dd HH:mm:ss
+586,43,diagnosis,control,1,1,2026-03-17 09:30:00,yyyy-MM-dd HH:mm:ss
+587,43,age,41,2,1,2026-04-17 09:30:00,yyyy-MM-dd HH:mm:ss
+588,43,bmi,20.7,2,1,2026-04-17 09:30:00,yyyy-MM-dd HH:mm:ss
+589,43,hba1c,5.24,2,1,2026-04-17 09:30:00,yyyy-MM-dd HH:mm:ss
+590,43,systolic_bp,126,2,1,2026-04-17 09:30:00,yyyy-MM-dd HH:mm:ss
+591,43,sex,male,2,1,2026-04-17 09:30:00,yyyy-MM-dd HH:mm:ss
+592,43,insulin_therapy,false,2,1,2026-04-17 09:30:00,yyyy-MM-dd HH:mm:ss
+593,43,diagnosis,control,2,1,2026-04-17 09:30:00,yyyy-MM-dd HH:mm:ss
+594,44,age,39,1,1,2026-03-18 09:30:00,yyyy-MM-dd HH:mm:ss
+595,44,bmi,24.4,1,1,2026-03-18 09:30:00,yyyy-MM-dd HH:mm:ss
+596,44,hba1c,5.28,1,1,2026-03-18 09:30:00,yyyy-MM-dd HH:mm:ss
+597,44,systolic_bp,137,1,1,2026-03-18 09:30:00,yyyy-MM-dd HH:mm:ss
+598,44,sex,female,1,1,2026-03-18 09:30:00,yyyy-MM-dd HH:mm:ss
+599,44,insulin_therapy,true,1,1,2026-03-18 09:30:00,yyyy-MM-dd HH:mm:ss
+600,44,diagnosis,control,1,1,2026-03-18 09:30:00,yyyy-MM-dd HH:mm:ss
+601,44,age,45,2,1,2026-04-18 09:30:00,yyyy-MM-dd HH:mm:ss
+602,44,bmi,23.3,2,1,2026-04-18 09:30:00,yyyy-MM-dd HH:mm:ss
+603,44,hba1c,5.1,2,1,2026-04-18 09:30:00,yyyy-MM-dd HH:mm:ss
+604,44,systolic_bp,126,2,1,2026-04-18 09:30:00,yyyy-MM-dd HH:mm:ss
+605,44,sex,male,2,1,2026-04-18 09:30:00,yyyy-MM-dd HH:mm:ss
+606,44,insulin_therapy,false,2,1,2026-04-18 09:30:00,yyyy-MM-dd HH:mm:ss
+607,44,diagnosis,control,2,1,2026-04-18 09:30:00,yyyy-MM-dd HH:mm:ss
+608,45,age,44,1,1,2026-03-10 09:30:00,yyyy-MM-dd HH:mm:ss
+609,45,bmi,25.0,1,1,2026-03-10 09:30:00,yyyy-MM-dd HH:mm:ss
+610,45,hba1c,5.23,1,1,2026-03-10 09:30:00,yyyy-MM-dd HH:mm:ss
+611,45,systolic_bp,121,1,1,2026-03-10 09:30:00,yyyy-MM-dd HH:mm:ss
+612,45,sex,male,1,1,2026-03-10 09:30:00,yyyy-MM-dd HH:mm:ss
+613,45,insulin_therapy,false,1,1,2026-03-10 09:30:00,yyyy-MM-dd HH:mm:ss
+614,45,diagnosis,control,1,1,2026-03-10 09:30:00,yyyy-MM-dd HH:mm:ss
+615,45,age,46,2,1,2026-04-10 09:30:00,yyyy-MM-dd HH:mm:ss
+616,45,bmi,24.5,2,1,2026-04-10 09:30:00,yyyy-MM-dd HH:mm:ss
+617,45,hba1c,4.86,2,1,2026-04-10 09:30:00,yyyy-MM-dd HH:mm:ss
+618,45,systolic_bp,127,2,1,2026-04-10 09:30:00,yyyy-MM-dd HH:mm:ss
+619,45,sex,male,2,1,2026-04-10 09:30:00,yyyy-MM-dd HH:mm:ss
+620,45,insulin_therapy,false,2,1,2026-04-10 09:30:00,yyyy-MM-dd HH:mm:ss
+621,45,diagnosis,control,2,1,2026-04-10 09:30:00,yyyy-MM-dd HH:mm:ss
+622,46,age,44,1,1,2026-03-11 09:30:00,yyyy-MM-dd HH:mm:ss
+623,46,bmi,20.3,1,1,2026-03-11 09:30:00,yyyy-MM-dd HH:mm:ss
+624,46,hba1c,5.34,1,1,2026-03-11 09:30:00,yyyy-MM-dd HH:mm:ss
+625,46,systolic_bp,128,1,1,2026-03-11 09:30:00,yyyy-MM-dd HH:mm:ss
+626,46,sex,male,1,1,2026-03-11 09:30:00,yyyy-MM-dd HH:mm:ss
+627,46,insulin_therapy,true,1,1,2026-03-11 09:30:00,yyyy-MM-dd HH:mm:ss
+628,46,diagnosis,control,1,1,2026-03-11 09:30:00,yyyy-MM-dd HH:mm:ss
+629,46,age,40,2,1,2026-04-11 09:30:00,yyyy-MM-dd HH:mm:ss
+630,46,bmi,24.0,2,1,2026-04-11 09:30:00,yyyy-MM-dd HH:mm:ss
+631,46,hba1c,5.18,2,1,2026-04-11 09:30:00,yyyy-MM-dd HH:mm:ss
+632,46,sex,female,2,1,2026-04-11 09:30:00,yyyy-MM-dd HH:mm:ss
+633,46,insulin_therapy,false,2,1,2026-04-11 09:30:00,yyyy-MM-dd HH:mm:ss
+634,46,diagnosis,control,2,1,2026-04-11 09:30:00,yyyy-MM-dd HH:mm:ss
+635,47,age,46,1,1,2026-03-12 09:30:00,yyyy-MM-dd HH:mm:ss
+636,47,bmi,24.2,1,1,2026-03-12 09:30:00,yyyy-MM-dd HH:mm:ss
+637,47,hba1c,5.12,1,1,2026-03-12 09:30:00,yyyy-MM-dd HH:mm:ss
+638,47,systolic_bp,131,1,1,2026-03-12 09:30:00,yyyy-MM-dd HH:mm:ss
+639,47,sex,female,1,1,2026-03-12 09:30:00,yyyy-MM-dd HH:mm:ss
+640,47,insulin_therapy,false,1,1,2026-03-12 09:30:00,yyyy-MM-dd HH:mm:ss
+641,47,diagnosis,control,1,1,2026-03-12 09:30:00,yyyy-MM-dd HH:mm:ss
+642,47,age,46,2,1,2026-04-12 09:30:00,yyyy-MM-dd HH:mm:ss
+643,47,bmi,25.3,2,1,2026-04-12 09:30:00,yyyy-MM-dd HH:mm:ss
+644,47,hba1c,5.14,2,1,2026-04-12 09:30:00,yyyy-MM-dd HH:mm:ss
+645,47,sex,male,2,1,2026-04-12 09:30:00,yyyy-MM-dd HH:mm:ss
+646,47,insulin_therapy,false,2,1,2026-04-12 09:30:00,yyyy-MM-dd HH:mm:ss
+647,47,diagnosis,control,2,1,2026-04-12 09:30:00,yyyy-MM-dd HH:mm:ss
+648,48,age,46,1,1,2026-03-13 09:30:00,yyyy-MM-dd HH:mm:ss
+649,48,bmi,21.5,1,1,2026-03-13 09:30:00,yyyy-MM-dd HH:mm:ss
+650,48,hba1c,5.52,1,1,2026-03-13 09:30:00,yyyy-MM-dd HH:mm:ss
+651,48,sex,female,1,1,2026-03-13 09:30:00,yyyy-MM-dd HH:mm:ss
+652,48,insulin_therapy,false,1,1,2026-03-13 09:30:00,yyyy-MM-dd HH:mm:ss
+653,48,diagnosis,control,1,1,2026-03-13 09:30:00,yyyy-MM-dd HH:mm:ss
+654,48,age,50,2,1,2026-04-13 09:30:00,yyyy-MM-dd HH:mm:ss
+655,48,bmi,24.2,2,1,2026-04-13 09:30:00,yyyy-MM-dd HH:mm:ss
+656,48,hba1c,4.39,2,1,2026-04-13 09:30:00,yyyy-MM-dd HH:mm:ss
+657,48,systolic_bp,130,2,1,2026-04-13 09:30:00,yyyy-MM-dd HH:mm:ss
+658,48,sex,male,2,1,2026-04-13 09:30:00,yyyy-MM-dd HH:mm:ss
+659,48,insulin_therapy,false,2,1,2026-04-13 09:30:00,yyyy-MM-dd HH:mm:ss
+660,48,diagnosis,control,2,1,2026-04-13 09:30:00,yyyy-MM-dd HH:mm:ss
+661,49,age,42,1,1,2026-03-14 09:30:00,yyyy-MM-dd HH:mm:ss
+662,49,bmi,27.0,1,1,2026-03-14 09:30:00,yyyy-MM-dd HH:mm:ss
+663,49,hba1c,5.15,1,1,2026-03-14 09:30:00,yyyy-MM-dd HH:mm:ss
+664,49,systolic_bp,129,1,1,2026-03-14 09:30:00,yyyy-MM-dd HH:mm:ss
+665,49,sex,male,1,1,2026-03-14 09:30:00,yyyy-MM-dd HH:mm:ss
+666,49,insulin_therapy,false,1,1,2026-03-14 09:30:00,yyyy-MM-dd HH:mm:ss
+667,49,diagnosis,control,1,1,2026-03-14 09:30:00,yyyy-MM-dd HH:mm:ss
+668,49,age,44,2,1,2026-04-14 09:30:00,yyyy-MM-dd HH:mm:ss
+669,49,bmi,22.0,2,1,2026-04-14 09:30:00,yyyy-MM-dd HH:mm:ss
+670,49,hba1c,5.12,2,1,2026-04-14 09:30:00,yyyy-MM-dd HH:mm:ss
+671,49,systolic_bp,130,2,1,2026-04-14 09:30:00,yyyy-MM-dd HH:mm:ss
+672,49,sex,male,2,1,2026-04-14 09:30:00,yyyy-MM-dd HH:mm:ss
+673,49,insulin_therapy,false,2,1,2026-04-14 09:30:00,yyyy-MM-dd HH:mm:ss
+674,49,diagnosis,control,2,1,2026-04-14 09:30:00,yyyy-MM-dd HH:mm:ss
+675,50,age,50,1,1,2026-03-15 09:30:00,yyyy-MM-dd HH:mm:ss
+676,50,bmi,23.0,1,1,2026-03-15 09:30:00,yyyy-MM-dd HH:mm:ss
+677,50,hba1c,5.28,1,1,2026-03-15 09:30:00,yyyy-MM-dd HH:mm:ss
+678,50,systolic_bp,132,1,1,2026-03-15 09:30:00,yyyy-MM-dd HH:mm:ss
+679,50,sex,female,1,1,2026-03-15 09:30:00,yyyy-MM-dd HH:mm:ss
+680,50,insulin_therapy,false,1,1,2026-03-15 09:30:00,yyyy-MM-dd HH:mm:ss
+681,50,diagnosis,control,1,1,2026-03-15 09:30:00,yyyy-MM-dd HH:mm:ss
+682,50,age,43,2,1,2026-04-15 09:30:00,yyyy-MM-dd HH:mm:ss
+683,50,bmi,25.2,2,1,2026-04-15 09:30:00,yyyy-MM-dd HH:mm:ss
+684,50,hba1c,5.0,2,1,2026-04-15 09:30:00,yyyy-MM-dd HH:mm:ss
+685,50,sex,female,2,1,2026-04-15 09:30:00,yyyy-MM-dd HH:mm:ss
+686,50,insulin_therapy,false,2,1,2026-04-15 09:30:00,yyyy-MM-dd HH:mm:ss
+687,50,diagnosis,control,2,1,2026-04-15 09:30:00,yyyy-MM-dd HH:mm:ss
+688,51,age,47,1,1,2026-03-16 09:30:00,yyyy-MM-dd HH:mm:ss
+689,51,bmi,21.1,1,1,2026-03-16 09:30:00,yyyy-MM-dd HH:mm:ss
+690,51,hba1c,5.15,1,1,2026-03-16 09:30:00,yyyy-MM-dd HH:mm:ss
+691,51,systolic_bp,122,1,1,2026-03-16 09:30:00,yyyy-MM-dd HH:mm:ss
+692,51,sex,female,1,1,2026-03-16 09:30:00,yyyy-MM-dd HH:mm:ss
+693,51,insulin_therapy,true,1,1,2026-03-16 09:30:00,yyyy-MM-dd HH:mm:ss
+694,51,diagnosis,control,1,1,2026-03-16 09:30:00,yyyy-MM-dd HH:mm:ss
+695,51,age,49,2,1,2026-04-16 09:30:00,yyyy-MM-dd HH:mm:ss
+696,51,bmi,25.3,2,1,2026-04-16 09:30:00,yyyy-MM-dd HH:mm:ss
+697,51,hba1c,5.16,2,1,2026-04-16 09:30:00,yyyy-MM-dd HH:mm:ss
+698,51,sex,male,2,1,2026-04-16 09:30:00,yyyy-MM-dd HH:mm:ss
+699,51,insulin_therapy,false,2,1,2026-04-16 09:30:00,yyyy-MM-dd HH:mm:ss
+700,51,diagnosis,control,2,1,2026-04-16 09:30:00,yyyy-MM-dd HH:mm:ss
+701,52,age,44,1,1,2026-03-17 09:30:00,yyyy-MM-dd HH:mm:ss
+702,52,bmi,25.6,1,1,2026-03-17 09:30:00,yyyy-MM-dd HH:mm:ss
+703,52,hba1c,5.57,1,1,2026-03-17 09:30:00,yyyy-MM-dd HH:mm:ss
+704,52,systolic_bp,140,1,1,2026-03-17 09:30:00,yyyy-MM-dd HH:mm:ss
+705,52,sex,male,1,1,2026-03-17 09:30:00,yyyy-MM-dd HH:mm:ss
+706,52,insulin_therapy,true,1,1,2026-03-17 09:30:00,yyyy-MM-dd HH:mm:ss
+707,52,diagnosis,control,1,1,2026-03-17 09:30:00,yyyy-MM-dd HH:mm:ss
+708,52,age,49,2,1,2026-04-17 09:30:00,yyyy-MM-dd HH:mm:ss
+709,52,bmi,23.4,2,1,2026-04-17 09:30:00,yyyy-MM-dd HH:mm:ss
+710,52,hba1c,5.38,2,1,2026-04-17 09:30:00,yyyy-MM-dd HH:mm:ss
+711,52,systolic_bp,134,2,1,2026-04-17 09:30:00,yyyy-MM-dd HH:mm:ss
+712,52,sex,female,2,1,2026-04-17 09:30:00,yyyy-MM-dd HH:mm:ss
+713,52,insulin_therapy,false,2,1,2026-04-17 09:30:00,yyyy-MM-dd HH:mm:ss
+714,52,diagnosis,control,2,1,2026-04-17 09:30:00,yyyy-MM-dd HH:mm:ss
+715,53,age,45,1,1,2026-03-18 09:30:00,yyyy-MM-dd HH:mm:ss
+716,53,bmi,24.9,1,1,2026-03-18 09:30:00,yyyy-MM-dd HH:mm:ss
+717,53,hba1c,5.84,1,1,2026-03-18 09:30:00,yyyy-MM-dd HH:mm:ss
+718,53,systolic_bp,126,1,1,2026-03-18 09:30:00,yyyy-MM-dd HH:mm:ss
+719,53,sex,female,1,1,2026-03-18 09:30:00,yyyy-MM-dd HH:mm:ss
+720,53,insulin_therapy,false,1,1,2026-03-18 09:30:00,yyyy-MM-dd HH:mm:ss
+721,53,diagnosis,control,1,1,2026-03-18 09:30:00,yyyy-MM-dd HH:mm:ss
+722,53,age,44,2,1,2026-04-18 09:30:00,yyyy-MM-dd HH:mm:ss
+723,53,bmi,26.1,2,1,2026-04-18 09:30:00,yyyy-MM-dd HH:mm:ss
+724,53,hba1c,5.82,2,1,2026-04-18 09:30:00,yyyy-MM-dd HH:mm:ss
+725,53,systolic_bp,114,2,1,2026-04-18 09:30:00,yyyy-MM-dd HH:mm:ss
+726,53,sex,male,2,1,2026-04-18 09:30:00,yyyy-MM-dd HH:mm:ss
+727,53,insulin_therapy,false,2,1,2026-04-18 09:30:00,yyyy-MM-dd HH:mm:ss
+728,53,diagnosis,control,2,1,2026-04-18 09:30:00,yyyy-MM-dd HH:mm:ss
+729,54,age,42,1,1,2026-03-10 09:30:00,yyyy-MM-dd HH:mm:ss
+730,54,bmi,21.5,1,1,2026-03-10 09:30:00,yyyy-MM-dd HH:mm:ss
+731,54,hba1c,5.72,1,1,2026-03-10 09:30:00,yyyy-MM-dd HH:mm:ss
+732,54,systolic_bp,130,1,1,2026-03-10 09:30:00,yyyy-MM-dd HH:mm:ss
+733,54,sex,male,1,1,2026-03-10 09:30:00,yyyy-MM-dd HH:mm:ss
+734,54,insulin_therapy,true,1,1,2026-03-10 09:30:00,yyyy-MM-dd HH:mm:ss
+735,54,diagnosis,control,1,1,2026-03-10 09:30:00,yyyy-MM-dd HH:mm:ss
+736,54,age,44,2,1,2026-04-10 09:30:00,yyyy-MM-dd HH:mm:ss
+737,54,bmi,26.7,2,1,2026-04-10 09:30:00,yyyy-MM-dd HH:mm:ss
+738,54,hba1c,5.04,2,1,2026-04-10 09:30:00,yyyy-MM-dd HH:mm:ss
+739,54,systolic_bp,120,2,1,2026-04-10 09:30:00,yyyy-MM-dd HH:mm:ss
+740,54,sex,female,2,1,2026-04-10 09:30:00,yyyy-MM-dd HH:mm:ss
+741,54,insulin_therapy,true,2,1,2026-04-10 09:30:00,yyyy-MM-dd HH:mm:ss
+742,54,diagnosis,control,2,1,2026-04-10 09:30:00,yyyy-MM-dd HH:mm:ss
+743,55,age,48,1,1,2026-03-11 09:30:00,yyyy-MM-dd HH:mm:ss
+744,55,bmi,25.0,1,1,2026-03-11 09:30:00,yyyy-MM-dd HH:mm:ss
+745,55,hba1c,4.93,1,1,2026-03-11 09:30:00,yyyy-MM-dd HH:mm:ss
+746,55,systolic_bp,127,1,1,2026-03-11 09:30:00,yyyy-MM-dd HH:mm:ss
+747,55,sex,male,1,1,2026-03-11 09:30:00,yyyy-MM-dd HH:mm:ss
+748,55,insulin_therapy,true,1,1,2026-03-11 09:30:00,yyyy-MM-dd HH:mm:ss
+749,55,diagnosis,control,1,1,2026-03-11 09:30:00,yyyy-MM-dd HH:mm:ss
+750,55,age,50,2,1,2026-04-11 09:30:00,yyyy-MM-dd HH:mm:ss
+751,55,bmi,23.2,2,1,2026-04-11 09:30:00,yyyy-MM-dd HH:mm:ss
+752,55,hba1c,5.22,2,1,2026-04-11 09:30:00,yyyy-MM-dd HH:mm:ss
+753,55,systolic_bp,136,2,1,2026-04-11 09:30:00,yyyy-MM-dd HH:mm:ss
+754,55,sex,female,2,1,2026-04-11 09:30:00,yyyy-MM-dd HH:mm:ss
+755,55,insulin_therapy,false,2,1,2026-04-11 09:30:00,yyyy-MM-dd HH:mm:ss
+756,55,diagnosis,control,2,1,2026-04-11 09:30:00,yyyy-MM-dd HH:mm:ss
+757,56,age,45,1,1,2026-03-12 09:30:00,yyyy-MM-dd HH:mm:ss
+758,56,bmi,24.9,1,1,2026-03-12 09:30:00,yyyy-MM-dd HH:mm:ss
+759,56,hba1c,5.91,1,1,2026-03-12 09:30:00,yyyy-MM-dd HH:mm:ss
+760,56,systolic_bp,126,1,1,2026-03-12 09:30:00,yyyy-MM-dd HH:mm:ss
+761,56,sex,male,1,1,2026-03-12 09:30:00,yyyy-MM-dd HH:mm:ss
+762,56,insulin_therapy,true,1,1,2026-03-12 09:30:00,yyyy-MM-dd HH:mm:ss
+763,56,diagnosis,control,1,1,2026-03-12 09:30:00,yyyy-MM-dd HH:mm:ss
+764,56,age,41,2,1,2026-04-12 09:30:00,yyyy-MM-dd HH:mm:ss
+765,56,bmi,21.2,2,1,2026-04-12 09:30:00,yyyy-MM-dd HH:mm:ss
+766,56,hba1c,4.83,2,1,2026-04-12 09:30:00,yyyy-MM-dd HH:mm:ss
+767,56,systolic_bp,132,2,1,2026-04-12 09:30:00,yyyy-MM-dd HH:mm:ss
+768,56,sex,female,2,1,2026-04-12 09:30:00,yyyy-MM-dd HH:mm:ss
+769,56,insulin_therapy,true,2,1,2026-04-12 09:30:00,yyyy-MM-dd HH:mm:ss
+770,56,diagnosis,control,2,1,2026-04-12 09:30:00,yyyy-MM-dd HH:mm:ss
+771,57,age,46,1,1,2026-03-13 09:30:00,yyyy-MM-dd HH:mm:ss
+772,57,bmi,25.7,1,1,2026-03-13 09:30:00,yyyy-MM-dd HH:mm:ss
+773,57,hba1c,5.17,1,1,2026-03-13 09:30:00,yyyy-MM-dd HH:mm:ss
+774,57,systolic_bp,130,1,1,2026-03-13 09:30:00,yyyy-MM-dd HH:mm:ss
+775,57,sex,male,1,1,2026-03-13 09:30:00,yyyy-MM-dd HH:mm:ss
+776,57,insulin_therapy,false,1,1,2026-03-13 09:30:00,yyyy-MM-dd HH:mm:ss
+777,57,diagnosis,control,1,1,2026-03-13 09:30:00,yyyy-MM-dd HH:mm:ss
+778,57,age,51,2,1,2026-04-13 09:30:00,yyyy-MM-dd HH:mm:ss
+779,57,bmi,24.4,2,1,2026-04-13 09:30:00,yyyy-MM-dd HH:mm:ss
+780,57,hba1c,5.1,2,1,2026-04-13 09:30:00,yyyy-MM-dd HH:mm:ss
+781,57,systolic_bp,124,2,1,2026-04-13 09:30:00,yyyy-MM-dd HH:mm:ss
+782,57,sex,male,2,1,2026-04-13 09:30:00,yyyy-MM-dd HH:mm:ss
+783,57,insulin_therapy,false,2,1,2026-04-13 09:30:00,yyyy-MM-dd HH:mm:ss
+784,57,diagnosis,control,2,1,2026-04-13 09:30:00,yyyy-MM-dd HH:mm:ss
+785,58,age,37,1,1,2026-03-14 09:30:00,yyyy-MM-dd HH:mm:ss
+786,58,bmi,22.4,1,1,2026-03-14 09:30:00,yyyy-MM-dd HH:mm:ss
+787,58,hba1c,5.15,1,1,2026-03-14 09:30:00,yyyy-MM-dd HH:mm:ss
+788,58,systolic_bp,147,1,1,2026-03-14 09:30:00,yyyy-MM-dd HH:mm:ss
+789,58,sex,male,1,1,2026-03-14 09:30:00,yyyy-MM-dd HH:mm:ss
+790,58,insulin_therapy,true,1,1,2026-03-14 09:30:00,yyyy-MM-dd HH:mm:ss
+791,58,diagnosis,control,1,1,2026-03-14 09:30:00,yyyy-MM-dd HH:mm:ss
+792,58,age,55,2,1,2026-04-14 09:30:00,yyyy-MM-dd HH:mm:ss
+793,58,bmi,24.0,2,1,2026-04-14 09:30:00,yyyy-MM-dd HH:mm:ss
+794,58,hba1c,5.25,2,1,2026-04-14 09:30:00,yyyy-MM-dd HH:mm:ss
+795,58,systolic_bp,136,2,1,2026-04-14 09:30:00,yyyy-MM-dd HH:mm:ss
+796,58,sex,male,2,1,2026-04-14 09:30:00,yyyy-MM-dd HH:mm:ss
+797,58,insulin_therapy,false,2,1,2026-04-14 09:30:00,yyyy-MM-dd HH:mm:ss
+798,58,diagnosis,control,2,1,2026-04-14 09:30:00,yyyy-MM-dd HH:mm:ss
+799,59,age,42,1,1,2026-03-15 09:30:00,yyyy-MM-dd HH:mm:ss
+800,59,bmi,28.3,1,1,2026-03-15 09:30:00,yyyy-MM-dd HH:mm:ss
+801,59,hba1c,5.98,1,1,2026-03-15 09:30:00,yyyy-MM-dd HH:mm:ss
+802,59,systolic_bp,131,1,1,2026-03-15 09:30:00,yyyy-MM-dd HH:mm:ss
+803,59,sex,male,1,1,2026-03-15 09:30:00,yyyy-MM-dd HH:mm:ss
+804,59,insulin_therapy,true,1,1,2026-03-15 09:30:00,yyyy-MM-dd HH:mm:ss
+805,59,diagnosis,control,1,1,2026-03-15 09:30:00,yyyy-MM-dd HH:mm:ss
+806,59,age,48,2,1,2026-04-15 09:30:00,yyyy-MM-dd HH:mm:ss
+807,59,bmi,24.1,2,1,2026-04-15 09:30:00,yyyy-MM-dd HH:mm:ss
+808,59,hba1c,5.57,2,1,2026-04-15 09:30:00,yyyy-MM-dd HH:mm:ss
+809,59,systolic_bp,132,2,1,2026-04-15 09:30:00,yyyy-MM-dd HH:mm:ss
+810,59,sex,female,2,1,2026-04-15 09:30:00,yyyy-MM-dd HH:mm:ss
+811,59,insulin_therapy,true,2,1,2026-04-15 09:30:00,yyyy-MM-dd HH:mm:ss
+812,59,diagnosis,control,2,1,2026-04-15 09:30:00,yyyy-MM-dd HH:mm:ss
+813,60,age,47,1,1,2026-03-16 09:30:00,yyyy-MM-dd HH:mm:ss
+814,60,bmi,23.0,1,1,2026-03-16 09:30:00,yyyy-MM-dd HH:mm:ss
+815,60,hba1c,5.17,1,1,2026-03-16 09:30:00,yyyy-MM-dd HH:mm:ss
+816,60,systolic_bp,122,1,1,2026-03-16 09:30:00,yyyy-MM-dd HH:mm:ss
+817,60,sex,male,1,1,2026-03-16 09:30:00,yyyy-MM-dd HH:mm:ss
+818,60,insulin_therapy,false,1,1,2026-03-16 09:30:00,yyyy-MM-dd HH:mm:ss
+819,60,diagnosis,control,1,1,2026-03-16 09:30:00,yyyy-MM-dd HH:mm:ss
+820,60,age,46,2,1,2026-04-16 09:30:00,yyyy-MM-dd HH:mm:ss
+821,60,bmi,26.7,2,1,2026-04-16 09:30:00,yyyy-MM-dd HH:mm:ss
+822,60,hba1c,6.19,2,1,2026-04-16 09:30:00,yyyy-MM-dd HH:mm:ss
+823,60,systolic_bp,127,2,1,2026-04-16 09:30:00,yyyy-MM-dd HH:mm:ss
+824,60,sex,male,2,1,2026-04-16 09:30:00,yyyy-MM-dd HH:mm:ss
+825,60,insulin_therapy,true,2,1,2026-04-16 09:30:00,yyyy-MM-dd HH:mm:ss
+826,60,diagnosis,control,2,1,2026-04-16 09:30:00,yyyy-MM-dd HH:mm:ss
