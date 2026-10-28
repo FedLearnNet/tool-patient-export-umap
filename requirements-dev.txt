@@ -1,3 +1,4 @@
+--find-links https://test.pypi.org/simple/fl-net-python-tool-api/
 -r requirements.txt
-FL-Net-Python-Tool-API~=0.7.15
+FL-Net-Python-Tool-API==0.7.15.dev6
 pytest
