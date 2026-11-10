@@ -1,4 +1,4 @@
-FROM ghcr.io/fedlearnnet/python-tool-api/base-python-dep:0.7.16.dev
+FROM ghcr.io/fedlearnnet/python-tool-api/base-python-dep:0.7.17.dev
 
 USER 0
 COPY requirements.txt .
